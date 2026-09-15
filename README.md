@@ -65,8 +65,24 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 | [Nous Portal](https://portal.nousresearch.com) | Free Hermes / research models | Not published | Not published | Hermes-family chat | Official Nous inference; caps unpublished |
 | [A4F](https://www.a4f.co/models) | Free model list | Not published | Not published | Aggregated cheap / $0 ids | Community tracker. Stability not guaranteed |
 | [Completions](https://www.completions.me) | Free hobby API | Not published | Not published | Quick OpenAI-compat tests | Small independent endpoint |
+| [Requesty](https://requesty.ai/) | Free routed models | 200 | Not published | OpenAI-compat multi-model router | Community-verified Sep 2026: ~60 RPM, 200 RPD on free models. Base `https://router.requesty.ai/v1` |
+| [Venice.ai](https://venice.ai/) | Free daily allowance | Not published | Not published | Privacy-first chat + image | ~10 RPM on free tier. Web + API; catalog includes Llama-class + SD |
+| [Void AI](https://voidai.app/) | Daily credits | Not published | ~125,000 credits | Coding + multi-vendor hub | Community-verified Sep 2026: 100 RPM. Base `https://api.voidai.app/v1` |
+| [Together AI](https://together.ai/) | Trial / starter credit | Not published | Not published | Hosted open models | Often $5 min purchase after trial. OpenAI-compat `api.together.xyz/v1` |
+| [DeepInfra](https://deepinfra.com/) | Trial credits | Not published | Not published | Cheap OSS inference | High concurrency (~200/model). Credit-based, not a forever-free pool |
+| [Kluster AI](https://kluster.ai/) | ~$5 signup credit | Not published | Not published | DeepSeek / Llama / Qwen host | Trackers list no-card start. Base `https://api.kluster.ai/v1` |
+| [Lambda Inference](https://lambda.ai/) | ~$10 starter credit | Not published | Not published | GPU cloud + inference | One-time credit on many directories; confirm console |
+| [Novita AI](https://novita.ai/) | Signup / referral credits + some $0 models | Not published | Not published | CN + OSS + image | OpenAI-compat `api.novita.ai`. Credit amounts ($0.50–$10) disagree across trackers |
+| [Vercel AI Gateway](https://vercel.com/ai-gateway) | Listed $0 routed models | Not published | Not published | Unified billing + failover | Free rows rotate (Ling 3.0 Flash family observed Sep 2026) |
+| [Replicate](https://replicate.com/) | Small trial credit | Not published | Not published | Models-as-containers | One-time credit. Good for image/video as well as text |
+| [BazaarLink](https://bazaarlink.ai/) | Free listed models | Not published | Not published | Aggregated OpenAI-compat | awesome-free-ai-api: tested 2026-09-15 |
+| [EvolveX](https://evolvex.ai/) | Free / starter access | Not published | Not published | Multi-model playground | awesome-free-ai-api + BYOK lists: tested Sep 2026 |
+| [AnyRouter](https://anyrouter.dev/) | Shared free pool + donated keys | 1,000* | Not published | Routed free capacity | `anyrouter/free` daily cap on Go/donate plan. Treat as aggregator |
+| [Sarvam](https://www.sarvam.ai/) | Free / low-cost India models | Not published | Not published | Indic multilingual | Sarvam-M and follow-ons. Not a general frontier chat host |
+| [AI Pooled](https://aipooled.com/) | Community pooled inference | Capacity-based | Capacity-based | Shared cheap / $0 routes | awesome-free-ai-api: tested 2026-09-15. Availability varies |
+| [Flowbar AI](https://flowbar.ai/) | Free listed models | Not published | Not published | Small OpenAI-compat host | Added to awesome-free-ai-api Aug 2026; verify live |
 
-\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap. IBM ~300k tokens is monthly, not daily.
+\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap. IBM ~300k tokens is monthly, not daily. AnyRouter 1,000 RPD is the donated/Go free pool, not anonymous unlimited.
 
 ### How this list is built
 
@@ -82,8 +98,11 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 - [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
 - [awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api)
 - [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
+- [awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models)
+- [awesome-free-inference](https://github.com/bradAGI/awesome-free-inference)
 - [Free-LLM](https://github.com/nejib1/Free-LLM)
 - [free-llm-resources](https://github.com/AILookup/free-llm-resources)
+- [freeinference.dev](https://freeinference.dev/)
 - [Google Gemini API rate limits](https://ai.google.dev/gemini-api/docs/rate-limits)
 - [Groq rate limits](https://console.groq.com/docs/rate-limits)
 - [OpenRouter pricing](https://openrouter.ai/pricing)
@@ -125,3 +144,15 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 - [Scaleway Generative APIs](https://www.scaleway.com/en/docs/generative-apis/)
 - [Hetzner Inference API docs](https://docs.hetzner.com/general/company-and-policy/experiments/inference/)
 - [IBM watsonx.ai Runtime plans](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/wml-plans.html?context=wx)
+- [Requesty](https://requesty.ai/)
+- [Venice.ai](https://venice.ai/)
+- [Void AI](https://voidai.app/)
+- [Together AI pricing](https://www.together.ai/pricing)
+- [DeepInfra](https://deepinfra.com/)
+- [Kluster AI](https://kluster.ai/)
+- [Lambda](https://lambda.ai/)
+- [Novita AI](https://novita.ai/)
+- [Vercel AI Gateway](https://vercel.com/ai-gateway)
+- [Replicate](https://replicate.com/)
+- [AnyRouter free models](https://anyrouter.dev/blog/top-free-models-api)
+- [Sarvam](https://www.sarvam.ai/)
