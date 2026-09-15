@@ -37,8 +37,17 @@ Some free LLM, vision models, image... All free.
 | [Aion Labs](https://www.aionlabs.ai/) | Daily free allowance | Not published | ~20,000 | Roleplay, creative writing | ~15 RPM; exact official numbers soft |
 | [Agnes AI](https://agnes-ai.com/) | Flash models at $0 | Not published | Not published | Multimodal, agents | RPM-limited; Pro models paid |
 | [OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/) | Free EU open models | Not published | Not published | GDPR / EU inference | 2 RPM anon / 400 RPM auth; no RPD published |
+| [Chutes.ai](https://chutes.ai/) | Community GPU / listed free models | Not published | Not published | DeepSeek-R1, Llama 3.1 70B | OpenAI-compat `api.chutes.ai/v1`. Early Access 200 RPD retired Mar 2026; some trackers say new signups are paid. Capacity-based, verify live |
+| [Glhf.chat](https://glhf.chat/) | Free beta models | Not published | Not published | Any HF model that fits a node | OpenAI-compat `glhf.chat/api/openai/v1`. Directories list Llama 3.1 70B + Mixtral as unlimited free; treat as beta |
+| [Alibaba Cloud Model Studio](https://www.alibabacloud.com/product/modelstudio) | New-user token quota (SG) | Not published | ~1M / model* | Official Qwen APIs | Singapore region; ~90-day signup quota then pay-as-you-go. Enable “free quota only” to avoid charges |
+| [DeepSeek](https://platform.deepseek.com/) | Listed free / very cheap official API | Not published | Not published | Official DeepSeek models | Directories still list 2 models; live free catalog often empty. Official path is mostly metered (cheap), not a generous always-free tier |
+| [Nebius Token Factory](https://studio.nebius.com/) | ~$1 trial credit | Not published | Not published | EU hosted open models | Card often required. One-time credit, not recurring |
+| [xAI](https://x.ai/) | Signup / prepaid credits | Not published | Not published | Grok models | `api.x.ai/v1`. Credits, not a large permanent free token pool |
+| [Cline](https://cline.bot/) | Free model routing for the Cline agent | Not published | Not published | Coding agent backends | Bundled free models for the Cline tool, not a general public API catalog |
+| [Moonshot AI](https://platform.moonshot.ai/) | Signup credits (¥15 / promo) | Not published | Not published | Kimi long-context | Official API is metered after credits (~3 RPM on trial). Web chat free ≠ API free |
+| [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/) | ~1M free tokens (tracked) | Not published | ~1,000,000 | EU inference | Card often required. Confirm current grant in console |
 
-\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440.
+\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap.
 
 ### Sources checked
 
@@ -76,3 +85,12 @@ Some free LLM, vision models, image... All free.
 - [Agnes AI FAQ](https://agnes-ai.com/doc/faqs)
 - [Agnes AI pricing](https://wiki.agnes-ai.com/en/docs/pricing)
 - [OVHcloud AI Endpoints capabilities](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-capabilities)
+- [Chutes.ai on FreeLLM](https://freellm.net/providers/chutes-ai)
+- [Chutes Early Access change](https://chutes.ghost.io/community-announcement-february/)
+- [Glhf.chat](https://glhf.chat/)
+- [Alibaba Model Studio free quota](https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio)
+- [DeepSeek platform](https://platform.deepseek.com/)
+- [Nebius studio](https://studio.nebius.com/)
+- [xAI API](https://docs.x.ai/)
+- [Moonshot / Kimi platform](https://platform.moonshot.ai/)
+- [Scaleway Generative APIs](https://www.scaleway.com/en/docs/generative-apis/)
