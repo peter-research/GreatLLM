@@ -27,6 +27,11 @@ Some free LLM, vision models, image... All free.
 | [Hyperbolic](https://www.hyperbolic.ai/) | $1 promotional credit | Not published | Not published | GPU-backed open-model inference | Hyperbolic currently grants $1 in promotional inference credit after phone verification. The credit cannot be used for GPU rentals. |
 | [Fireworks AI](https://fireworks.ai/) | $1 free credit / free request envelope | Not published | Not published | Fast serverless open-model inference | Current third-party tracking reports a no-card 10 RPM free request envelope, while other current sources report a one-time $1 signup credit. Treat the allowance as introductory and verify before relying on it. |
 | [Pollinations AI](https://pollinations.ai/) | Free/light-use API access | Not published | Not published | Text, image, audio and video generation | Pollinations exposes OpenAI-compatible APIs and free-tier grants/allowances. Heavier usage is metered through Pollen credits, so exact free capacity varies by account and tier. |
+| [Ollama Cloud](https://ollama.com/) | Free cloud tier with starter usage credits | Not published | Not published | Open-model chat, local-to-cloud workflows | Ollama's current pricing page lists a $0 Free plan with starter usage credits and access to starter models. Cloud API access is OpenAI-compatible at `https://ollama.com/v1`; exact free token caps are not publicly published. |
+| [AnyAPI](https://api.anyapi.ai/) | Free tier, no card required | 200 | Not published | OpenAI-compatible multi-model gateway | Current community-maintained free-API tracking lists 20 RPM and 200 RPD for AnyAPI's free tier, with access to a rotating set of open models. Verify the live model list and limits before production use. |
+| [Api.Airforce](https://api.airforce/) | Free tier for testing and hobby projects | Not published | Not published | Unified gateway, coding agents, chat clients | Api.Airforce advertises a $0 Free plan for testing and hobby projects with an OpenAI-compatible API. Public pages emphasize best-effort free access rather than a fixed published daily token quota. |
+| [UnoRouter](https://unorouter.ai/) | Free aggregated model access | Not published | Not published | Multi-provider routing, experimentation | Current provider tracking describes UnoRouter as an OpenAI-compatible gateway aggregating free upstream models. The service applies a soft cap of about 1 request/minute/user, while upstream quotas vary. |
+| [AI21 Studio](https://www.ai21.com/studio/) | $10 free trial credit for 7 days | Not published | Not published | Long-context Jamba models, writing | Current pricing trackers report a $10 free trial with no card required for seven days. This is a time-limited trial, not a permanent free tier. |
 
 \* Cloudflare uses Neurons rather than tokens; this value is kept in the RPD column only to expose the daily quota and should not be interpreted as 10,000 requests. For comparison, a current community analysis estimates 10,000 Neurons/day at roughly 147,000 output tokens/day when using gpt-oss-120b. This is model-specific and only an approximation, not an official Cloudflare token conversion. Kilo's 4,800 figure is likewise a normalized 200 requests/hour × 24, not a published daily limit.
 
@@ -54,3 +59,8 @@ Some free LLM, vision models, image... All free.
 - [Hyperbolic billing](https://www.hyperbolic.ai/docs/general/billing-payments)
 - [Fireworks AI free-tier tracking](https://xyzs996.github.io/free-llm-api/provider/fireworks.html)
 - [Pollinations API docs](https://github.com/pollinations/pollinations/blob/main/APIDOCS.md)
+- [Ollama pricing](https://ollama.com/pricing)
+- [AnyAPI free-tier tracking](https://github.com/amardeeplakshkar/awesome-free-llm-apis)
+- [Api.Airforce](https://api.airforce/)
+- [UnoRouter provider tracking](https://models.sulat.com/providers/unorouter)
+- [AI21 Studio pricing tracking](https://aiproviderindex.com/platform/ai21-studio)
