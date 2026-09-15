@@ -32,6 +32,11 @@ Some free LLM, vision models, image... All free.
 | [Api.Airforce](https://api.airforce/) | Free tier for testing and hobby projects | Not published | Not published | Unified gateway, coding agents, chat clients | Api.Airforce advertises a $0 Free plan for testing and hobby projects with an OpenAI-compatible API. Public pages emphasize best-effort free access rather than a fixed published daily token quota. |
 | [UnoRouter](https://unorouter.ai/) | Free aggregated model access | Not published | Not published | Multi-provider routing, experimentation | Current provider tracking describes UnoRouter as an OpenAI-compatible gateway aggregating free upstream models. The service applies a soft cap of about 1 request/minute/user, while upstream quotas vary. |
 | [AI21 Studio](https://www.ai21.com/studio/) | $10 free trial credit for 7 days | Not published | Not published | Long-context Jamba models, writing | Current pricing trackers report a $10 free trial with no card required for seven days. This is a time-limited trial, not a permanent free tier. |
+| [GitHub Models](https://github.com/marketplace/models) | Free inference with a GitHub account | 50–150 | Not published | Prototyping GPT/Phi/Llama/Mistral models | Official GitHub docs tie limits to Copilot plan and model tier. Copilot Free is commonly 10–15 RPM and 50 RPD (high-tier models) or 150 RPD (low-tier models), plus tight per-request token caps (~8K in / 4K out). Best for prototypes, not production. |
+| [OpenCode Zen](https://opencode.ai/zen) | Zero-priced promo models via Zen gateway | Not published | Not published | Coding agents, OpenAI-compatible chat | Current pricing pages list several models at $0 for a limited time (e.g. Big Pickle, MiMo-V2.5 Free, Ling 3.0 Flash Fin Free, Nemotron 3 Ultra Free). Availability rotates; paid catalog models must not be treated as free. Base URL: `https://opencode.ai/zen/v1`. |
+| [Aion Labs](https://www.aionlabs.ai/) | Permanent free daily allowance, no card | Not published | ~20,000 | Roleplay, creative writing, light API trials | Official docs describe a free daily credit allowance with an OpenAI-compatible API at `https://api.aionlabs.ai/v1`. Community trackers consistently report ~15 RPM and ~20K tokens/day. Exact official token numbers are not fully published. |
+| [Agnes AI](https://agnes-ai.com/) | Indefinitely free Flash text/image/video models | Not published | Not published | Multimodal generation, agents | Official FAQ and pricing docs currently price selected Flash models at $0. Access is RPM-limited rather than a published daily token cap. Treat promotional $0 rows as subject to change; Pro models are paid. |
+| [OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/) | Free EU-hosted open models | Not published | Not published | GDPR / EU inference, open-weight models | Official OVH docs: 2 RPM per IP per model (anonymous) and 400 RPM per project per model (authenticated API key). No separate published daily token cap. Discovery-mode projects without a payment method cannot create usable access keys. |
 
 \* Cloudflare uses Neurons rather than tokens; this value is kept in the RPD column only to expose the daily quota and should not be interpreted as 10,000 requests. For comparison, a current community analysis estimates 10,000 Neurons/day at roughly 147,000 output tokens/day when using gpt-oss-120b. This is model-specific and only an approximation, not an official Cloudflare token conversion. Kilo's 4,800 figure is likewise a normalized 200 requests/hour × 24, not a published daily limit.
 
@@ -39,6 +44,7 @@ Some free LLM, vision models, image... All free.
 
 - [FreeLLM provider directory](https://freellm.net/providers/)
 - [awesome-free-llm-apis](https://github.com/amardeeplakshkar/awesome-free-llm-apis)
+- [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
 - [free-llm-resources](https://github.com/AILookup/free-llm-resources)
 - [Google Gemini API rate limits](https://ai.google.dev/gemini-api/docs/rate-limits)
 - [Groq rate limits](https://console.groq.com/docs/rate-limits)
@@ -64,3 +70,9 @@ Some free LLM, vision models, image... All free.
 - [Api.Airforce](https://api.airforce/)
 - [UnoRouter provider tracking](https://models.sulat.com/providers/unorouter)
 - [AI21 Studio pricing tracking](https://aiproviderindex.com/platform/ai21-studio)
+- [GitHub Models rate limits](https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models)
+- [OpenCode Zen](https://opencode.ai/zen)
+- [Aion Labs API reference](https://www.aionlabs.ai/docs/api-reference/)
+- [Agnes AI FAQ](https://agnes-ai.com/doc/faqs)
+- [Agnes AI pricing](https://wiki.agnes-ai.com/en/docs/pricing)
+- [OVHcloud AI Endpoints capabilities](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-capabilities)
