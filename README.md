@@ -81,6 +81,32 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 | [Sarvam](https://www.sarvam.ai/) | Free / low-cost India models | Not published | Not published | Indic multilingual | Sarvam-M and follow-ons. Not a general frontier chat host |
 | [AI Pooled](https://aipooled.com/) | Community pooled inference | Capacity-based | Capacity-based | Shared cheap / $0 routes | awesome-free-ai-api: tested 2026-09-15. Availability varies |
 | [Flowbar AI](https://flowbar.ai/) | Free listed models | Not published | Not published | Small OpenAI-compat host | Added to awesome-free-ai-api Aug 2026; verify live |
+| [AIchixia](https://www.aichixia.xyz/) | Free listed models | Not published | Not published | Community OpenAI-compat | awesome-free-ai-api tested 2026-09-14 |
+| [Apertis](https://apertis.ai/models?sort=price_low) | $0 / lowest-price filter | Not published | Not published | Price-sorted model catalog | Sort by price_low; treat $0 rows as rotating |
+| [Atessa](https://atessa.top/) | Free hobby gateway | Not published | Not published | Small multi-model host | Independent; no published SLA |
+| [BlazeAI](https://blazeai.boxu.dev/#models) | Free listed models | Not published | Not published | Lightweight OpenAI-compat | Community-tested Sep 2026 |
+| [CoderPlan](https://coderplan.ai) | Free coding-oriented models | Not published | Not published | Code agents | Confirm live catalog on site |
+| [Crax GPT](https://gpt.crax.lol/) | Free model list | Not published | Not published | Hobby chat API | Community host; availability varies |
+| [FreeTheAI](https://freetheai.xyz/models/) | Public free catalog | Not published | Not published | Discovery + routed $0 ids | Aggregator-style; verify each model |
+| [Hubs02225](https://hubs02225.snia.ch/) | Free listed models | Not published | Not published | Small OpenAI-compat | Community-tested Sep 2026 |
+| [Logfare](https://logfare.ai/) | Free / starter access | Not published | Not published | Multi-model router | Tracker-tested Sep 2026 |
+| [MegaNova](https://console.meganova.ai/serverless) | Free models on Tier 1 | Not published | Not published | Serverless OSS + Manta | Official: some models free without card; daily limits. Base `https://api.meganova.ai/v1` |
+| [MNN AI](https://mnnai.ru/) | Free listed models | Not published | Not published | RU-hosted OpenAI-compat | Community-tested Sep 2026 |
+| [NagaAI](https://naga.ac/models) | Free listed models | Not published | Not published | Multi-model catalog | Tracker-tested Sep 2026 |
+| [Nexusify](https://docs.nexusify.co/) | Free routed models | Not published | Not published | Docs-first gateway | Confirm live $0 ids |
+| [Ofox](https://ofox.ai/models) | Free listed models | Not published | Not published | Simple model catalog | Community-tested Sep 2026 |
+| [PaxSenix API](https://api.paxsenix.org/docs) | Free hobby API | Not published | Not published | Documented OpenAI-compat | Community-tested Sep 2026 |
+| [Yingsuan AI](https://yingsuan.top/) | 3+ free models | Not published | Not published | DeepSeek / Kimi / GLM / Qwen | Email only, no card (tracker 2026-09-14) |
+| [ZenLLM](https://zenllm.org/models) | Free listed models | Not published | Not published | Community catalog | Tracker-tested Sep 2026 |
+| [Parasail](https://www.parasail.io/) | Rate-limited serverless try | Not published | Not published | OSS serverless inference | Trackers: ~5 RPM free envelope. Base `https://api.parasail.io/v1`. Card needed for higher RPM |
+| [Pydantic AI Gateway](https://ai.pydantic.dev/gateway/) | Bundled / listed free routes | Not published | Not published | Pydantic-AI tooling | Gateway, not a first-party model lab |
+| [TokenReply](https://www.tokenreply.com/docs/models) | Free / starter plans | Not published | Not published | Documented model list | Check plans page; not all ids stay $0 |
+| [ValorGPT](https://www.valorgpt.com/models) | Free listed models | Not published | Not published | Multi-model host | Community-tested Sep 2026 |
+| [StudioLM](https://studiolm.dev/) | Free listed models | Not published | Not published | Small playground + API | Community-tested Sep 2026 |
+| [SubNP](https://subnp.com/free-api) | Explicit free-API page | Not published | Not published | Hobby free endpoint | Dedicated `/free-api` landing |
+| [Rout.my](https://www.rout.my/) | Free routed models | Not published | Not published | Lightweight router | Docs at docs.rout.my |
+| [Routeway AI](https://routeway.ai/models) | Free listed models | Not published | Not published | Multi-model router | Community-tested Sep 2026 |
+| [Resurge](https://www.resurge.one/models) | Free listed models | Not published | Not published | Model catalog | Community-tested Sep 2026 |
 
 \* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap. IBM ~300k tokens is monthly, not daily. AnyRouter 1,000 RPD is the donated/Go free pool, not anonymous unlimited.
 
@@ -156,3 +182,6 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 - [Replicate](https://replicate.com/)
 - [AnyRouter free models](https://anyrouter.dev/blog/top-free-models-api)
 - [Sarvam](https://www.sarvam.ai/)
+- [MegaNova docs](https://docs.meganova.ai/faq/getting-started)
+- [Parasail docs](https://docs.parasail.io/parasail-docs)
+- [Yingsuan AI](https://yingsuan.top/)
