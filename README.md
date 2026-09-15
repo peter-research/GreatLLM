@@ -2,6 +2,8 @@
 
 Some free LLM, vision models, image... All free.
 
+Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
+
 ## Free providers
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
@@ -46,14 +48,41 @@ Some free LLM, vision models, image... All free.
 | [Cline](https://cline.bot/) | Free model routing for the Cline agent | Not published | Not published | Coding agent backends | Bundled free models for the Cline tool, not a general public API catalog |
 | [Moonshot AI](https://platform.moonshot.ai/) | Signup credits (¥15 / promo) | Not published | Not published | Kimi long-context | Official API is metered after credits (~3 RPM on trial). Web chat free ≠ API free |
 | [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/) | ~1M free tokens (tracked) | Not published | ~1,000,000 | EU inference | Card often required. Confirm current grant in console |
+| [Hetzner Inference](https://experiments.hetzner.com) | Free while experimental | Not published | Not published | EU open weights (Qwen / DeepSeek / GLM) | Official: free as long as experiment lasts. Base `https://inference.hetzner.com/api/v1`. ~10 req / 60s; 4M in / 100k out tokens per 60s. No SLA |
+| [IBM watsonx.ai](https://cloud.ibm.com/docs/apis/watsonx-ai) | Lite plan | Not published | ~300,000 / month | Granite + hosted OSS | Card used for ID, Lite not billed. ~2 RPS + 20 CUH/month. Enterprise-shaped API |
+| [AI Horde](https://aihorde.net/) | Community distributed inference | Capacity-based | Capacity-based | Image + text, no vendor lock | Crowd-sourced GPUs. Latency and availability vary. No card |
+| [AIHubMix](https://aihubmix.com/models) | Free / discounted routed models | Not published | Not published | Multi-model gateway | Aggregator. Catalog and $0 rows rotate; verify live pricing |
+| [FastRouter](https://fastrouter.ai/models/) | Listed $0 models | Not published | Not published | Routed OpenAI-compat | Aggregator. Treat free ids as best-effort |
+| [Electron Hub](https://www.electronhub.ai/) | Free / starter credits | Not published | Not published | Multi-model playground + API | Check console pricing; not all models stay $0 |
+| [DGrid AI](https://dgrid.ai/models/dgridai/free/) | Dedicated free catalog | Not published | Not published | Decentralized / community models | Free list is explicit on `/free/` |
+| [Inference.net](https://inference.net) | Free / low-cost OSS endpoints | Not published | Not published | Hosted open models | OpenAI-compat. Confirm current free envelope in docs |
+| [LiteRouter](https://literouter.com/model_list) | Free routed models | Not published | Not published | Lightweight multi-provider proxy | Community tracker-tested Sep 2026 |
+| [LLM Gateway](https://llmgateway.io/models?filters=1&free=true) | Filterable $0 models | Not published | Not published | One dashboard, many backends | Use the free filter; catalog rotates |
+| [Mixedbread](https://www.mixedbread.com/pricing) | Free embedding / retrieval tier | Not published | Not published | Embeddings, search, rerank | Retrieval-first, not a general chat frontier |
+| [Coze](https://www.coze.com/open) | Free bot / model API quota | Not published | Not published | Agents + published bots | ByteDance stack. Quotas tied to account region |
+| [AwanLLM](https://www.awanllm.com/models) | Free listed models | Not published | Not published | Simple OpenAI-compat | Tracker-tested Sep 2026; small provider |
+| [FreeInference](https://freeinference.org) | Public free catalog | Not published | Not published | Discovery + some endpoints | Directory + docs at doc.freeinference.org |
+| [Nous Portal](https://portal.nousresearch.com) | Free Hermes / research models | Not published | Not published | Hermes-family chat | Official Nous inference; caps unpublished |
+| [A4F](https://www.a4f.co/models) | Free model list | Not published | Not published | Aggregated cheap / $0 ids | Community tracker. Stability not guaranteed |
+| [Completions](https://www.completions.me) | Free hobby API | Not published | Not published | Quick OpenAI-compat tests | Small independent endpoint |
 
-\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap.
+\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap. IBM ~300k tokens is monthly, not daily.
+
+### How this list is built
+
+1. Scan public directories (FreeLLM, awesome-free lists).
+2. Cross-check community reviews and official docs (quotas, card, SLA).
+3. Keep **new providers only** when extending — do not duplicate rows.
+4. Flag aggregators and experiments: they disappear first.
 
 ### Sources checked
 
 - [FreeLLM provider directory](https://freellm.net/providers/)
 - [awesome-free-llm-apis](https://github.com/amardeeplakshkar/awesome-free-llm-apis)
 - [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
+- [awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api)
+- [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
+- [Free-LLM](https://github.com/nejib1/Free-LLM)
 - [free-llm-resources](https://github.com/AILookup/free-llm-resources)
 - [Google Gemini API rate limits](https://ai.google.dev/gemini-api/docs/rate-limits)
 - [Groq rate limits](https://console.groq.com/docs/rate-limits)
@@ -94,3 +123,5 @@ Some free LLM, vision models, image... All free.
 - [xAI API](https://docs.x.ai/)
 - [Moonshot / Kimi platform](https://platform.moonshot.ai/)
 - [Scaleway Generative APIs](https://www.scaleway.com/en/docs/generative-apis/)
+- [Hetzner Inference API docs](https://docs.hetzner.com/general/company-and-policy/experiments/inference/)
+- [IBM watsonx.ai Runtime plans](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/wml-plans.html?context=wx)
