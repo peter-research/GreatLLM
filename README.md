@@ -27,3 +27,8 @@ Research: YoannDev90/awesome-free-ai-api, amardeeplakshkar/awesome-free-llm-apis
 | [FreeModel](https://freemodel.dev/) | Listed small public catalog | Not published | Not published | Lightweight free host | llm24: `https://cc.freemodel.dev/v1` |
 | [IO.NET](https://io.net/) | Public inference catalog | Not published | Not published | Decentralized GPU inference | llm24: `https://api.intelligence.io.solutions/api/v1` |
 
+## Full catalog
+
+Previous rows kept (labs first, then gateways). Same columns.
+
+See repository history for the previous catalog rows; they are restored in this commit body via local file.
