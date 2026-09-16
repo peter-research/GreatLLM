@@ -4,9 +4,32 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16 late)
+## New this pass (2026-09-16 evening)
 
-Research: FreeLLM / freellm.net, YoannDev90/awesome-free-ai-api, open-free-llm-api/awesome-freellm-apis, freeinference.dev, nejib1/Free-LLM, bradAGI/awesome-free-inference. Community reviews + official signup pages checked. **New names only** (not already in the catalog below).
+Research: FreeLLM / freellm.net, freellm.site, YoannDev90/awesome-free-ai-api, open-free-llm-api/awesome-freellm-apis, velo4705/awesome-free-byok-models, freeinference.dev. Community reviews + official signup / docs pages checked. **New names only** (not already in the catalog below).
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [A4F](https://www.a4f.co/) | Official free plan, no card to start | Not published | Not published | Multi-lab OpenAI-compat gateway | Docs: `https://api.a4f.co/v1`; PH reviews mixed on uptime |
+| [BlazeAPI](https://blazeai.boxu.dev/home) | Listed 20 RPM / 1,000 RPD | 1,000 | Not published | Hobby OpenAI-compat host | Base `https://blazeai.boxu.dev/api/` (no `/v1`); community host |
+| [Mixlayer](https://mixlayer.ai/) | Signup catalog | Not published | Not published | OpenAI-compat model host | Registry base `https://models.mixlayer.ai/v1` |
+| [AnyRouter](https://anyrouter.dev/) | Shared free pool + `anyrouter/free` | ~1,000* | Capacity-based | Routed free models | Official blog documents donated pool; some plans paid |
+| [RouterBase](https://routerbase.com/) | Signup / listed free envelope | Not published | Not published | Multi-lab router | Aggregator; verify live $0 model ids |
+| [Backboard](https://backboard.io/) | BYOK + listed free routes | Not published | Not published | Stateful multi-model routing | Router, not a first-party host |
+| [BLXRouter](https://blxrouter.com/) | Public free-index (no signup) | N/A | N/A | Discover OpenRouter / Ollama free ids | Index, not an inference host |
+| [302.AI](https://302.ai/) | Some product APIs marked free | Not published | Not published | CN multi-model gateway | OpenAI-compat `https://api.302.ai/v1`; most chat is PAYG |
+| [Meta Llama API](https://www.llama.com/) | Official Llama compat endpoint | Not published | Not published | First-party Llama | Base often `https://api.llama.com/compat/v1`; confirm current free envelope |
+| [Xiaomi MiMo](https://www.xiaomimimo.com/) | Official / listed starter API | Not published | Not published | MiMo coding / chat models | Registry base `https://api.xiaomimimo.com/v1` |
+| [Abliteration AI](https://abliteration.ai/) | Signup uncensored OSS host | Not published | Not published | Abliterated OSS chat | Community host `https://api.abliteration.ai/v1` |
+| [Bhashini](https://bhashini.gov.in/) | Public Indic language APIs | Not published | Not published | IN translation / ASR / TTS | Government platform using AI4Bharat models |
+| [BharatGen](https://bharatgen.tech/) | Open-weight Indic LLMs | Self-host | Self-host | IN multilingual research | IIT Bombay consortium; hosted SLA is separate |
+| [TII Falcon](https://falconllm.tii.ae/) | Open weights on Hugging Face | Self-host | Self-host | Falcon / Falcon-H1 family | UAE TII; self-host or HF Inference path |
+| [Wrtn](https://wrtn.ai/) | KR writing-assistant free tier | Not published | Not published | Korean chat / writing | Listed on freellm.site as no-card; confirm live API |
+| [Cline](https://cline.bot/) | Bundled free coding models | Not published | Not published | VS Code agent | Tool-tied free ids; not a standalone public chat SaaS |
+
+## Full catalog
+
+Previous rows kept (labs first, then gateways). Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
@@ -26,13 +49,6 @@ Research: FreeLLM / freellm.net, YoannDev90/awesome-free-ai-api, open-free-llm-a
 | [MegaNova](https://console.meganova.ai/) | Serverless signup tier | Not published | Not published | Serverless OSS | Console serverless path |
 | [Mixedbread](https://www.mixedbread.com/) | Free embed / retrieval tier | Not published | Not published | Embeddings + search | Retrieve-first, not a chat frontier lab |
 | [NagaAI](https://naga.ac/) | Listed free model table | Not published | Not published | Community multi-model API | Hobby host; confirm current uptime |
-
-## Full catalog
-
-Previous rows kept (labs first, then gateways). Same columns.
-
-| Provider | Free access | RPD | TKPD | Best for | Notes |
-| --- | --- | ---: | ---: | --- | --- |
 | [Together AI](https://api.together.ai/) | Signup / trial credits | Credit-based | Credit-based | Large OSS catalog | ~$1–25 trial reported; some free Llama rows historically |
 | [DeepInfra](https://deepinfra.com/) | Signup trial credit | Credit-based | Credit-based | Cheap OSS serving | ~$1–5 trial, high concurrency; no SLA |
 | [Parasail](https://www.parasail.io/) | Email signup / listed free rows | Not published | Not published | Serverless OSS | OpenAI-compat `api.saas.parasail.io` |
