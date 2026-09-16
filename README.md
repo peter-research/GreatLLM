@@ -4,9 +4,32 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16 evening)
+## New this pass (2026-09-16 late)
 
-Research: FreeLLM / freellm.net / freellm.site, awesome-freellm-apis, freeinference.dev, nejib1/Free-LLM, velo4705/awesome-free-byok-models, bradAGI/awesome-free-inference. Community reviews + official signup pages checked. **New names only** (not already in the catalog below).
+Research: FreeLLM / freellm.net, YoannDev90/awesome-free-ai-api, open-free-llm-api/awesome-freellm-apis, freeinference.dev, nejib1/Free-LLM, bradAGI/awesome-free-inference. Community reviews + official signup pages checked. **New names only** (not already in the catalog below).
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [AI Horde](https://aihorde.net/) | Volunteer GPU swarm, no card | Capacity-based | Capacity-based | Community image + text | Queue latency; TOS: shared community compute |
+| [AIHubMix](https://aihubmix.com/) | Listed free model rows | Not published | Not published | Multi-lab gateway | Aggregator; verify key TOS |
+| [Apertis](https://apertis.ai/) | Price-sorted free / cheap rows | Not published | Not published | OpenAI-compat routing | Community-listed; reliability varies |
+| [AwanLLM](https://www.awanllm.com/) | Signup free catalog | Not published | Not published | OSS chat hosts | OpenAI-compat hobby host |
+| [BazaarLink](https://bazaarlink.ai/free) | Official /free page | Not published | Not published | Free routed models | Check live model list before shipping |
+| [Coze](https://www.coze.com/open) | Registration daily token pack | Token-capped | Token-capped | Bot / agent playground | ByteDance product; quotas reset daily |
+| [DGrid AI](https://dgrid.ai/models/dgridai/free/) | Listed /free model path | Not published | Not published | Decentralized inference | Capacity-based; community reviews mixed |
+| [Electron Hub](https://www.electronhub.ai/) | Signup + listed free rows | Not published | Not published | Multi-model gateway | See pricing page for current $0 ids |
+| [FastRouter](https://fastrouter.ai/) | Free routed models | Not published | Not published | Low-latency router | Aggregator; failover quality varies |
+| [Hetzner Inference](https://experiments.hetzner.com) | Public experiment endpoints | Not published | Not published | EU hobby inference | Experiment program — can disappear |
+| [IBM watsonx.ai](https://www.ibm.com/products/watsonx-ai) | Cloud trial credits | Credit-based | Credit-based | Enterprise OSS + Granite | IBM Cloud account; card often later |
+| [LiteRouter](https://literouter.com/) | Listed free model list | Not published | Not published | Lightweight OpenAI proxy | Community gateway |
+| [LLM Gateway](https://llmgateway.io/) | Filter `free=true` catalog | Not published | Not published | Multi-provider $0 filter | Official free filter on model page |
+| [MegaNova](https://console.meganova.ai/) | Serverless signup tier | Not published | Not published | Serverless OSS | Console serverless path |
+| [Mixedbread](https://www.mixedbread.com/) | Free embed / retrieval tier | Not published | Not published | Embeddings + search | Retrieve-first, not a chat frontier lab |
+| [NagaAI](https://naga.ac/) | Listed free model table | Not published | Not published | Community multi-model API | Hobby host; confirm current uptime |
+
+## Full catalog
+
+Previous rows kept (labs first, then gateways). Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
@@ -28,13 +51,6 @@ Research: FreeLLM / freellm.net / freellm.site, awesome-freellm-apis, freeinfere
 | [Volcengine Ark](https://www.volcengine.com/product/ark) | ByteDance cloud trial tokens | Not published | Not published | Doubao / Seed models | CN cloud; confirm public vs invite |
 | [Inception AI](https://www.inceptionlabs.ai/) | Listed starter / research access | Not published | Not published | Diffusion / Mercury LLMs | Independent lab; quota unpublished |
 | [LG EXAONE](https://www.lgresearch.ai/) | Research / listed starter | Not published | Not published | Korean / bilingual models | LG AI Research; public API status rotates |
-
-## Full catalog
-
-Previous rows kept (labs first, then gateways). Same columns.
-
-| Provider | Free access | RPD | TKPD | Best for | Notes |
-| --- | --- | ---: | ---: | --- | --- |
 | [Agnes AI](https://agnes-ai.com/) | Permanent free multimodal API | RPM-capped | Not published | Text + image + video | Official: ~20 RPM text on default key; no SLA |
 | [Aion Labs](https://www.aionlabs.ai/) | Free signup tier | ~20k tokens/day | 20,000 | Roleplay / story | Official: 15 RPM, 20k TPM/TPD free |
 | [xAI](https://console.x.ai/) | Monthly Grok credits | Credit-based | Credit-based | Grok chat / reasoning | OpenAI-compat `api.x.ai`; card often required |
@@ -67,7 +83,7 @@ Previous rows kept (labs first, then gateways). Same columns.
 | [LLM7.io](https://llm7.io/) | Free token | ~2,400* | Not published | Simple multi-model API | Official: 2 RPS, 20 RPM, 100/hour |
 | [ModelScope](https://modelscope.cn/) | Free inference | 2,000 | Not published | Qwen, DeepSeek, CN models | ~500 RPD per model; may need real-name |
 | [Kilo Code](https://kilo.ai/) | Free model gateway | 4,800* | Not published | Coding agents | 200 req/hour per IP |
-| [GitHub Models](https://github.com/marketplace/models) | Free with GitHub account | 50-150 | Not published | Prototyping GPT/Phi/Llama | Tied to Copilot tier |
+| [GitHub Models](https://github.com/marketplace/models) | Free with GitHub account | 50-150 | Not published | Prototyping GPT/Phi/Llama | Tied to Copilot tier; some reports of retirement |
 | [OpenCode Zen](https://opencode.ai/zen) | Promo $0 models | Not published | Not published | Coding agents | Limited-time free ids |
 | [OVHcloud AI Endpoints](https://endpoints.ai.cloud.ovh.net/) | Free EU open models | Not published | Not published | GDPR / EU inference | 2 RPM anon / 400 RPM auth |
 | [Chutes.ai](https://chutes.ai/) | Community GPU / listed free models | Not published | Not published | DeepSeek / Llama hosts | Capacity-based |
@@ -117,6 +133,7 @@ Previous rows kept (labs first, then gateways). Same columns.
 - [FreeLLM](https://freellm.net/providers/)
 - [freellm.site](https://www.freellm.site/)
 - [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
+- [awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api)
 - [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
 - [awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models)
 - [freeinference.dev](https://freeinference.dev/)
