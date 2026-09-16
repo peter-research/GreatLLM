@@ -4,9 +4,32 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16 evening)
+## New this pass (2026-09-16 night)
 
-Research: FreeLLM / freellm.net, freellm.site, YoannDev90/awesome-free-ai-api, open-free-llm-api/awesome-freellm-apis, velo4705/awesome-free-byok-models, freeinference.dev. Community reviews + official signup / docs pages checked. **New names only** (not already in the catalog below).
+Research: FreeLLM / freellm.net, YoannDev90/awesome-free-ai-api, velo4705/awesome-free-byok-models, freellm.site, freeinference.dev, llm24.net, eggstriker.com, infrabase.ai. Community reviews + official signup / docs pages checked. **New names only** (not already in the catalog below).
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [EvolveX](https://evolvex.gg/) | Listed 5 RPM free hub | Not published | Not published | Multi-lab OpenAI-compat hub | Base `https://api.evolvex.gg/v1`; BYOK list verified 2026-09-16 |
+| [TokenReply](https://www.tokenreply.com/) | Free / plus / featured rows | Not published | Not published | Multi-lab OpenAI + Anthropic + Gemini paths | Aggregator; confirm live $0 ids |
+| [ValorGPT](https://valorgpt.com/) | Catalog + listed free rows | Not published | Not published | 300+ model index / gateway | Index-heavy; reliability varies |
+| [Baseten](https://www.baseten.co/) | ~$30 new-workspace credit | Credit-based | Credit-based | Serverless OSS Model APIs | No permanent $0 model; then PAYG |
+| [NVIDIA DGX Cloud Lepton](https://lepton.ai/) | Listed starter / NVIDIA path | Not published | Not published | GPU marketplace + inference | Former Lepton AI, now NVIDIA |
+| [iFlytek Spark](https://xinghuo.xfyun.cn/) | Spark Lite listed permanent free | Not published | Not published | CN Spark chat / coding | Official iFlytek open platform; Lite vs Max differ |
+| [Poe](https://poe.com/) | Creator / OpenAI-compat API starter | Not published | Not published | Multi-bot chat API | Official creator docs; most bots metered |
+| [Dots Studio](https://huggingface.co/dots-studio) | Dots3-Note Preview listed $0 on routers | ~50-200 | Not published | Long-context notes / vision | Official paid; `:free` on OpenRouter |
+| [Flowbar AI](https://flowbar.ai/) | ~50k signup trial tokens | Credit-based | ~50,000* | Multi-lab CN/global relay | 30-day trial tokens reported |
+| [Crax GPT](https://crax.gpt-api.com/) | Listed free catalog (awesome lists) | Not published | Not published | Hobby OpenAI-compat host | Community-listed; confirm live TOS |
+| [Atessa](https://atessa.ai/) | Listed free catalog (awesome lists) | Not published | Not published | Community multi-model API | Tested on YoannDev90 list 2026-09-16 |
+| [AI Pooled](https://aipooled.com/) | Shared community pool | Capacity-based | Capacity-based | Pooled free inference | Volunteer / shared capacity |
+| [AIchixia](https://aichixia.com/) | Listed free catalog | Not published | Not published | Hobby OpenAI-compat host | Community-listed |
+| [ZenLLM](https://zenllm.com/) | Listed free catalog | Not published | Not published | Lightweight OSS host | Confirm current uptime |
+| [MonsterAPI](https://www.monsterapi.ai/) | Signup / listed free or trial | Credit-based | Credit-based | Serverless OSS | OpenAI-compat `api.monsterapi.ai` |
+| [OpenTyphoon](https://opentyphoon.ai/) | Official free API key path | Not published | Not published | Thai / SEA Typhoon models | SCB 10X lab; regional models |
+
+## Full catalog
+
+Previous rows kept (labs first, then gateways). Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
@@ -26,13 +49,6 @@ Research: FreeLLM / freellm.net, freellm.site, YoannDev90/awesome-free-ai-api, o
 | [TII Falcon](https://falconllm.tii.ae/) | Open weights on Hugging Face | Self-host | Self-host | Falcon / Falcon-H1 family | UAE TII; self-host or HF Inference path |
 | [Wrtn](https://wrtn.ai/) | KR writing-assistant free tier | Not published | Not published | Korean chat / writing | Listed on freellm.site as no-card; confirm live API |
 | [Cline](https://cline.bot/) | Bundled free coding models | Not published | Not published | VS Code agent | Tool-tied free ids; not a standalone public chat SaaS |
-
-## Full catalog
-
-Previous rows kept (labs first, then gateways). Same columns.
-
-| Provider | Free access | RPD | TKPD | Best for | Notes |
-| --- | --- | ---: | ---: | --- | --- |
 | [AI Horde](https://aihorde.net/) | Volunteer GPU swarm, no card | Capacity-based | Capacity-based | Community image + text | Queue latency; TOS: shared community compute |
 | [AIHubMix](https://aihubmix.com/) | Listed free model rows | Not published | Not published | Multi-lab gateway | Aggregator; verify key TOS |
 | [Apertis](https://apertis.ai/) | Price-sorted free / cheap rows | Not published | Not published | OpenAI-compat routing | Community-listed; reliability varies |
