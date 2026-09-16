@@ -4,33 +4,33 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16)
+## New this pass (2026-09-16 late)
 
-Research: FreeLLM, awesome-freellm-apis, freeinference.dev, awesome-free-ai-coding, official docs. Reviews cross-checked; only **new** rows (not already in the catalog).
+Research: FreeLLM / freellm.net, awesome-freellm-apis, freeinference.dev, nejib1/Free-LLM, official rate-limit pages. Community reviews checked; **new names only** (not already in the catalog below).
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| [StepFun](https://platform.stepfun.com/) | V0 $0 + tracked ¥10 signup | ~10 RPM (V0) | ~5M TPM (V0) | CN multimodal / agents | Official OpenAI + Anthropic paths; some audio models time-limited free |
-| [Liquid AI](https://www.liquid.ai/) | Free LFM ids via routers + console | Not published | Not published | Small efficient LFM models | Official lab; `:free` rows also on OpenRouter |
-| [Thinking Machines Lab](https://thinkingmachines.ai/) | Inkling / Inkling Small listed $0 on routers | Not published | Not published | Long-context research models | First-party API status rotates |
-| [ZeroLimitAI](https://zerolimit.ai/) | Routed free pool | Capacity-based | Capacity-based | Auto-failover across free backends | Community aggregator |
-| [Google Antigravity](https://antigravity.google/) | Bundled frontier models in the coding agent | Not published | Not published | Agent + Gemini / Claude promo routes | Tool-tied, not a standalone public API |
-| [Azure AI Foundry](https://ai.azure.com/) | New-account / Foundry trial credits | Not published | Not published | Microsoft-hosted OSS + OpenAI | Card often required after trial |
-| [Amazon Bedrock](https://aws.amazon.com/bedrock/) | AWS Free Tier / limited model trials | Not published | Not published | Managed multi-lab models | Needs AWS account; most traffic is paid |
-| [Perplexity](https://www.perplexity.ai/) | Limited Sonar / search API trial | Not published | Not published | Grounded search answers | Confirm current Sonar envelope |
-| [Reka AI](https://www.reka.ai/) | Research / listed starter access | Not published | Not published | Multimodal Reka models | Independent lab |
-| [Helicone](https://www.helicone.ai/) | Gateway + logged free routes | Not published | Not published | Observability + routing | Proxy, not a first-party host |
-| [CodeGPT](https://codegpt.co/) | Economy / free agent models | Not published | Not published | IDE coding agent | Model IDs not fully published |
-| [You.com](https://you.com/) | Search / research API starter | Not published | Not published | Web-grounded answers | Quotas unpublished |
-| [Jina AI](https://jina.ai/) | Free embedding / reader / rerank tier | Not published | Not published | RAG primitives | Retrieve-first, not chat |
-| [Voyage AI](https://www.voyageai.com/) | Free embedding token pack | Not published | Not published | High-quality embeddings | Not a chat LLM host |
-| [Aleph Alpha](https://aleph-alpha.com/) | EU research / listed trial | Not published | Not published | Sovereign EU models | Confirm live public API |
-| [Baichuan](https://platform.baichuan-ai.com/) | CN official signup credits | Not published | Not published | Baichuan chat models | Real-name typical |
-| [Skywork](https://www.skywork.ai/) | Listed free / CN research models | Not published | Not published | Kunlun / Skywork family | Verify public API vs chat-only |
+| [Agnes AI](https://agnes-ai.com/) | Permanent free multimodal API | RPM-capped | Not published | Text + image + video | Official: ~20 RPM text on default key; no SLA |
+| [Aion Labs](https://www.aionlabs.ai/) | Free signup tier | ~20k tokens/day | 20,000 | Roleplay / story | Official: 15 RPM, 20k TPM/TPD free |
+| [xAI](https://console.x.ai/) | Monthly Grok credits | Credit-based | Credit-based | Grok chat / reasoning | OpenAI-compat `api.x.ai`; card often required |
+| [DeepSeek](https://platform.deepseek.com/) | Signup token credit | Not published | ~5M tokens* | Official V3 / reasoner | One-time / rotating promo; then cheap PAYG |
+| [AI21 Labs](https://studio.ai21.com/) | Trial credits | Credit-based | Credit-based | Jamba long context | ~$10 trial reported; confirm window |
+| [Hyperbolic](https://app.hyperbolic.xyz/) | Signup trial credits | Credit-based | Credit-based | Large OSS (Llama / DeepSeek) | ~$1 trial + ~60 RPM on basic |
+| [Venice.ai](https://venice.ai/) | Free privacy-oriented tier | Limited | Not published | Uncensored OSS + image | ~10 RPM on free; privacy-first |
+| [Glhf.chat](https://glhf.chat/) | Listed free OSS hosts | Capacity-based | Capacity-based | Llama / Mixtral hobby | Community host; reliability varies |
+| [Nebius Token Factory](https://tokenfactory.nebius.com/) | Builder / signup credits | Credit-based | Credit-based | EU OSS inference | Builder program + small studio credit |
+| [Nscale](https://www.nscale.com/) | New-user inference credits | Credit-based | Credit-based | Serverless OSS | ~$5 signup credit reported |
+| [Novita AI](https://novita.ai/) | Small trial credit | Credit-based | Credit-based | OSS + image | ~$0.50 trial; 60 RPM typical |
+| [Inference.net](https://inference.net/) | Free plan + small monthly credit | Credit-based | Credit-based | OSS routing | Recurring $1-class credit reported |
+| [Fireworks AI](https://fireworks.ai/) | Small permanent credit | Credit-based | Credit-based | Fast OSS serving | Tiny always-on credit; then PAYG |
+| [Scaleway Generative APIs](https://www.scaleway.com/en/generative-apis/) | Starter token pack | Not published | ~1M* | EU-hosted OSS | GDPR-friendly French cloud |
+| [Modal](https://modal.com/) | Monthly compute credit | Credit-based | Credit-based | Run models as functions | $5–30/mo compute, not a chat SaaS |
+| [MiniMax](https://www.minimax.io/) | Official / CN free rows | Not published | Not published | Coding + long context | Also free via ModelScope hosts |
+| [Moonshot AI](https://platform.moonshot.ai/) | Kimi platform credits | Not published | Not published | Long-context Kimi | Official CN API; NIM also hosts Kimi |
 
 ## Full catalog
 
-Previous rows are kept below (labs first, then gateways / hobby hosts). Same columns.
+Previous rows kept (labs first, then gateways). Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
@@ -67,10 +67,25 @@ Previous rows are kept below (labs first, then gateways / hobby hosts). Same col
 | [Nex AGI](https://huggingface.co/Nex-AGI) | Nex-N2.5 free on routers | ~50-200 | Not published | Agent / reasoning | `:free` aggregator rows |
 | [Puter.js](https://developer.puter.com) | User-pays browser SDK | User-dependent | User-dependent | Apps without backend keys | End users pay usage |
 | [Featherless AI](https://featherless.ai) | Paid catalog / HF route | Not published | Not published | Huge OSS catalog | Check HF Inference Provider path |
+| [StepFun](https://platform.stepfun.com/) | V0 $0 + tracked ¥10 signup | ~10 RPM (V0) | ~5M TPM (V0) | CN multimodal / agents | Official OpenAI + Anthropic paths |
+| [Liquid AI](https://www.liquid.ai/) | Free LFM ids via routers + console | Not published | Not published | Small efficient LFM models | Official lab; `:free` rows also on OpenRouter |
+| [Thinking Machines Lab](https://thinkingmachines.ai/) | Inkling / Inkling Small listed $0 on routers | Not published | Not published | Long-context research models | First-party API status rotates |
+| [ZeroLimitAI](https://zerolimit.ai/) | Routed free pool | Capacity-based | Capacity-based | Auto-failover across free backends | Community aggregator |
+| [Google Antigravity](https://antigravity.google/) | Bundled frontier models in the coding agent | Not published | Not published | Agent + Gemini / Claude promo routes | Tool-tied, not a standalone public API |
+| [Azure AI Foundry](https://ai.azure.com/) | New-account / Foundry trial credits | Not published | Not published | Microsoft-hosted OSS + OpenAI | Card often required after trial |
+| [Amazon Bedrock](https://aws.amazon.com/bedrock/) | AWS Free Tier / limited model trials | Not published | Not published | Managed multi-lab models | Needs AWS account; most traffic is paid |
+| [Perplexity](https://www.perplexity.ai/) | Limited Sonar / search API trial | Not published | Not published | Grounded search answers | Confirm current Sonar envelope |
+| [Reka AI](https://www.reka.ai/) | Research / listed starter access | Not published | Not published | Multimodal Reka models | Independent lab |
+| [Helicone](https://www.helicone.ai/) | Gateway + logged free routes | Not published | Not published | Observability + routing | Proxy, not a first-party host |
+| [CodeGPT](https://codegpt.co/) | Economy / free agent models | Not published | Not published | IDE coding agent | Model IDs not fully published |
+| [You.com](https://you.com/) | Search / research API starter | Not published | Not published | Web-grounded answers | Quotas unpublished |
+| [Jina AI](https://jina.ai/) | Free embedding / reader / rerank tier | Not published | Not published | RAG primitives | Retrieve-first, not chat |
+| [Voyage AI](https://www.voyageai.com/) | Free embedding token pack | Not published | Not published | High-quality embeddings | Not a chat LLM host |
+| [Aleph Alpha](https://aleph-alpha.com/) | EU research / listed trial | Not published | Not published | Sovereign EU models | Confirm live public API |
+| [Baichuan](https://platform.baichuan-ai.com/) | CN official signup credits | Not published | Not published | Baichuan chat models | Real-name typical |
+| [Skywork](https://www.skywork.ai/) | Listed free / CN research models | Not published | Not published | Kunlun / Skywork family | Verify public API vs chat-only |
 
-The longer hobby / aggregator tail (100+ extra hosts already listed in earlier commits on `main`) is unchanged in intent; this commit highlights durable labs and the 16 newly added names.
-
-\* Approximate daily figures derived from published hourly/minute limits. Quotas change often.
+\* Approximate daily figures derived from published hourly/minute limits or starter packs. Quotas change often.
 
 ### How this list is built
 
@@ -86,5 +101,6 @@ The longer hobby / aggregator tail (100+ extra hosts already listed in earlier c
 - [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
 - [awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models)
 - [freeinference.dev](https://freeinference.dev/)
-- [StepFun pricing](https://platform.stepfun.ai/docs/en/guides/pricing/details)
-- [Upstage pricing](https://www.upstage.ai/pricing/api)
+- [nejib1/Free-LLM](https://github.com/nejib1/Free-LLM)
+- [Aion Labs rate limits](https://www.aionlabs.ai/docs/rate-limits/)
+- [Agnes AI token plan](https://wiki.agnes-ai.com/en/docs/tokenplan)
