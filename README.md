@@ -139,6 +139,24 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 | [fal.ai](https://fal.ai/) | ~$20 signup credit | Not published | Not published | Image / video / some text | Generation-first |
 | [AgentRouter](https://agentrouter.org) | Signup credit (tracked) | Not published | Not published | Agent-oriented routing | Aggregator |
 | [Freebuff](https://freebuff.ai) | Agent-bundled $0 models | Not published | Not published | Coding agents | Tool-tied free models |
+| [Auriko](https://www.auriko.ai) | Free plan + some $0 models | Not published | ~1M BYOK / month* | Zero-markup router | GLM Flash ids verified free; most other models need credits |
+| [Featherless AI](https://featherless.ai) | Paid catalog, HF router path | Not published | Not published | Huge OSS catalog | Basic plan is $10/mo; check HF Inference Provider route |
+| [Upstage](https://console.upstage.ai) | $10 trial credits | Not published | Credit-based | Solar + documents KR/EN | ~60 RPM; credits expire (~3 months) |
+| [GMI Cloud](https://www.gmicloud.ai) | $5 credit + some free OSS endpoints | Not published | Not published | DeepSeek / GLM / Qwen host | Free models run on prod H100/H200 infra |
+| [Portkey](https://portkey.ai) | Free gateway tier | Not published | Not published | Observability + routing | Gateway, not a first-party lab |
+| [Clarifai](https://www.clarifai.com) | Community / starter credits | Not published | Not published | Multimodal platform | Mixed text + vision catalog |
+| [Snowflake Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions) | Account trial / included credits | Not published | Not published | SQL + LLM in Snowflake | Needs a Snowflake account |
+| [Databricks Foundation Model APIs](https://docs.databricks.com/en/machine-learning/foundation-models/index.html) | Workspace trial credits | Not published | Not published | Hosted OSS on Databricks | Tied to Databricks workspace |
+| [Predibase](https://predibase.com) | Starter / trial credit | Not published | Not published | Fine-tune + serve OSS | Credit, not forever-free |
+| [Baidu Qianfan](https://cloud.baidu.com/product/wenxinworkshop) | New-user token pack | Not published | Not published | Official ERNIE / CN models | Real-name / Baidu Cloud typical |
+| [01.AI Yi](https://platform.lingyiwanwu.com) | Signup / promo credits | Not published | Not published | Official Yi models | Quotas change; verify console |
+| [InternLM / Shanghai AI Lab](https://internlm.intern-ai.org.cn) | Research / listed free access | Not published | Not published | InternLM family | Confirm public API vs chat-only |
+| [Poolside](https://poolside.ai) | Laguna often free via NIM | Not published | Not published | Coding models (Laguna) | Official API may be gated; NIM hosts Laguna XS |
+| [Xiaomi MiMo](https://github.com/XiaomiMiMo) | Official weights + some hosted routes | Not published | Not published | MiMo reasoning models | Hosted $0 routes rotate (GMI / routers) |
+| [InclusionAI](https://huggingface.co/inclusionAI) | Ling 3.0 Flash VL free on routers | ~200 on OpenRouter free | Not published | Multimodal Ling models | Official paid; :free rows on OpenRouter |
+| [Nex AGI](https://huggingface.co/Nex-AGI) | Nex-N2.5 Mini/Pro free on routers | ~200 on OpenRouter free | Not published | Agent / reasoning models | Official availability vs :free aggregator rows |
+| [Puter.js](https://developer.puter.com) | User-pays browser SDK | User-dependent | User-dependent | Apps without backend keys | Users cover their own AI usage |
+| [AI71](https://ai71.ai) | Listed free / UAE host | Not published | Not published | Falcon / regional models | Confirm live envelope |
 
 \* Approximate daily figures derived from published hourly/minute limits. Quotas change often.
 
@@ -156,6 +174,11 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 - [awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api)
 - [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
 - [awesome-free-llm-api](https://github.com/peter123023/awesome-free-llm-api)
+- [awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models)
+- [Free-LLM](https://github.com/nejib1/Free-LLM)
 - [NaraRouter docs](https://router.naraya.ai/docs)
 - [Lightning AI Model APIs](https://lightning.ai/docs/platform/inference/model-apis)
 - [SenseNova Token Plan](https://platform.sensenova.cn/token-plan)
+- [Auriko docs](https://docs.auriko.ai/platform/plans)
+- [GMI Cloud](https://www.gmicloud.ai/en/blog/best-gpu-cloud-free-trials-for-llm-inference-in-2026)
+- [Upstage pricing](https://www.upstage.ai/pricing/api)
