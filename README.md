@@ -29,7 +29,7 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 | [Hyperbolic](https://www.hyperbolic.ai/) | $1 promo credit | Not published | Not published | GPU open models | Phone verification; not for GPU rental |
 | [Fireworks AI](https://fireworks.ai/) | $1 credit / free envelope | Not published | Not published | Fast serverless | Treat as introductory; verify live |
 | [Pollinations AI](https://pollinations.ai/) | Free / light use | Not published | Not published | Text, image, audio, video | Heavier use uses Pollen credits |
-| [Ollama Cloud](https://ollama.com/) | Free plan + starter credits | Not published | Not published | Open models, local↔cloud | Caps not fully published |
+| [Ollama Cloud](https://ollama.com/) | Free plan + starter credits | Not published | Not published | Open models, local\u2194cloud | Caps not fully published |
 | [AnyAPI](https://api.anyapi.ai/) | Free tier, no card | 200 | Not published | OpenAI-compatible gateway | ~20 RPM |
 | [Api.Airforce](https://api.airforce/) | Free hobby tier | Not published | Not published | Unified gateway | Best-effort free access |
 | [UnoRouter](https://unorouter.ai/) | Free aggregated access | ~1,440* | Not published | Multi-provider routing | Soft ~1 RPM/user |
@@ -107,8 +107,24 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 | [Rout.my](https://www.rout.my/) | Free routed models | Not published | Not published | Lightweight router | Docs at docs.rout.my |
 | [Routeway AI](https://routeway.ai/models) | Free listed models | Not published | Not published | Multi-model router | Community-tested Sep 2026 |
 | [Resurge](https://www.resurge.one/models) | Free listed models | Not published | Not published | Model catalog | Community-tested Sep 2026 |
+| [Inception Platform](https://platform.inceptionlabs.ai/) | 100M free tokens (signup) | ~1,000 RPM* | ~1,000,000 input / 100,000 output per min | Diffusion LLMs (Mercury) | Official: 100M one-time free tokens; 1k req / 1M in / 100k out per min on free tier. Base `https://api.inceptionlabs.ai/v1` |
+| [Tencent Hunyuan](https://hunyuan.tencent.com) | 1M token trial pack | Not published | ~1,000,000 (pack) | CN models + vision | Official Tencent Cloud pack (~1 year). Trackers cite ~5 RPM. Real-name / Tencent Cloud account |
+| [FriendliAI](https://friendli.ai/) | Free models + adaptive RPM | Capacity-based | Not published | Fast OSS serverless | Official docs: free-model RPM adaptive at Tier 0. OpenAI-compat. Promo models rotate |
+| [MiniMax Official](https://platform.minimax.io/) | Signup / promo credits | Not published | Not published | Official MiniMax M-series | Distinct from ModelScope hosting. OpenAI-compat. Treat as credit, not forever-free |
+| [AquaDevs](https://aquadevs.com/plan) | Community free / plan seats | Not published | Not published | Routed premium + fusion models | awesome-free-ai-api listed Sep 2026 (not live-tested that day). Small aggregator; plans expire if unused |
+| [OhMyGPT](https://www.ohmygpt.com/) | Starter / referral credits | Not published | Not published | Multi-vendor OpenAI+Claude gateway | Official `https://api.ohmygpt.com/v1`. Aggregator; most traffic is paid. Referral $20 is promo not quota |
+| [Navy AI](https://api.navy) | Subscription daily token pool | Plan-based | Plan-based | Unified OpenAI + Anthropic surface | Listed on awesome-free-ai-api but **not live-tested** 2026-09-15. Plans from ~$10/mo; treat hobby free as unverified |
+| [Pixazo AI](https://www.pixazo.ai/api/pricing-plan) | Free / starter plan | Not published | Not published | Image + text API | Community-listed Mar–Sep 2026. Confirm live pricing |
+| [SwiftRouter](https://swiftrouter.com/models?plan=starter) | Starter routed models | Not published | Not published | Multi-provider router | awesome-free-ai-api: listed, not live-tested 2026-09-15 |
+| [Xeven Worker](https://ai-image-api.xeven.workers.dev/img) | Public worker endpoint | Not published | Not published | Image generation hobby API | Community-tested Sep 2026. Image-first, not a chat frontier |
+| [MincAPI](https://mincapi.ai.studio/) | Hobby OpenAI-compat | Not published | Not published | Small multi-model host | Added Jul 2026; last dedicated check Jul 2026 — re-verify |
+| [SixFingerAPI](https://api.sixfinger.live) | Listed free / plans | Not published | Not published | Documented model catalog | awesome-free-ai-api: not live-tested Jul–Sep 2026 |
+| [Subaxis](https://subaxis.dev/) | Listed free access | Not published | Not published | Community OpenAI-compat | Listed Jul 2026; **not live-tested** 2026-09-15 |
+| [TypeGPT](https://typegpt.net) | Historical free catalog | Not published | Not published | Multi-model playground | Was added Feb 2026 then removed May 2026 from some lists — treat as unstable |
+| [Infip AI](https://infip.ai) | Historical free listing | Not published | Not published | Small host | Added Feb 2026, later dropped from some directories — verify before use |
+| [Seraphyn AI](https://seraphyn.ai) | Historical free listing | Not published | Not published | Community host | Added Mar 2026; later removed from some lists — unstable |
 
-\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap. IBM ~300k tokens is monthly, not daily. AnyRouter 1,000 RPD is the donated/Go free pool, not anonymous unlimited.
+\* Approximate daily figures derived from published hourly/minute limits (not official daily quotas): Cloudflare = Neurons not requests; Kilo = 200 req/h × 24; LLM7 = 100 req/h × 24; UnoRouter = ~1 RPM × 1440. Alibaba ~1M tokens is a per-model new-user grant, not a daily cap. IBM ~300k tokens is monthly, not daily. AnyRouter 1,000 RPD is the donated/Go free pool, not anonymous unlimited. Inception ~1,000 RPM is the official free-tier *per-minute request* cap, not a published daily quota.
 
 ### How this list is built
 
@@ -139,49 +155,14 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 - [SambaNova rate limits](https://docs.sambanova.ai/docs/en/models/rate-limits)
 - [SiliconFlow rate limits](https://docs.siliconflow.com/en/userguide/rate-limits/rate-limit-and-upgradation)
 - [LLM7.io limits](https://docs.llm7.io/limits)
-- [ModelScope API inference tracking](https://free-model.com/providers/modelscope/)
-- [Kilo Code free usage](https://kilo.ai/docs/getting-started/using-kilo-for-free)
-- [Kilo Code rate limits](https://kilo.ai/docs/getting-started/rate-limits-and-costs)
-- [Modal pricing](https://modal.com/pricing)
-- [Baseten pricing](https://www.baseten.co/pricing/)
-- [Nscale Serverless Inference](https://www.nscale.com/blog/introducing-nscale-serverless-inference-scalable-ai-without-infrastructure-hassles)
-- [Hyperbolic billing](https://www.hyperbolic.ai/docs/general/billing-payments)
-- [Fireworks AI free-tier tracking](https://xyzs996.github.io/free-llm-api/provider/fireworks.html)
-- [Pollinations API docs](https://github.com/pollinations/pollinations/blob/main/APIDOCS.md)
-- [Ollama pricing](https://ollama.com/pricing)
-- [AnyAPI free-tier tracking](https://github.com/amardeeplakshkar/awesome-free-llm-apis)
-- [Api.Airforce](https://api.airforce/)
-- [UnoRouter provider tracking](https://models.sulat.com/providers/unorouter)
-- [AI21 Studio pricing tracking](https://aiproviderindex.com/platform/ai21-studio)
-- [GitHub Models rate limits](https://docs.github.com/en/github-models/use-github-models/prototyping-with-ai-models)
-- [OpenCode Zen](https://opencode.ai/zen)
-- [Aion Labs API reference](https://www.aionlabs.ai/docs/api-reference/)
-- [Agnes AI FAQ](https://agnes-ai.com/doc/faqs)
-- [Agnes AI pricing](https://wiki.agnes-ai.com/en/docs/pricing)
-- [OVHcloud AI Endpoints capabilities](https://docs.ovhcloud.com/en/guides/public-cloud/ai-machine-learning/ai-endpoints-capabilities)
-- [Chutes.ai on FreeLLM](https://freellm.net/providers/chutes-ai)
-- [Chutes Early Access change](https://chutes.ghost.io/community-announcement-february/)
-- [Glhf.chat](https://glhf.chat/)
-- [Alibaba Model Studio free quota](https://www.alibabacloud.com/help/en/model-studio/what-is-model-studio)
-- [DeepSeek platform](https://platform.deepseek.com/)
-- [Nebius studio](https://studio.nebius.com/)
-- [xAI API](https://docs.x.ai/)
-- [Moonshot / Kimi platform](https://platform.moonshot.ai/)
-- [Scaleway Generative APIs](https://www.scaleway.com/en/docs/generative-apis/)
-- [Hetzner Inference API docs](https://docs.hetzner.com/general/company-and-policy/experiments/inference/)
-- [IBM watsonx.ai Runtime plans](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/wml-plans.html?context=wx)
-- [Requesty](https://requesty.ai/)
-- [Venice.ai](https://venice.ai/)
-- [Void AI](https://voidai.app/)
-- [Together AI pricing](https://www.together.ai/pricing)
-- [DeepInfra](https://deepinfra.com/)
-- [Kluster AI](https://kluster.ai/)
-- [Lambda](https://lambda.ai/)
-- [Novita AI](https://novita.ai/)
-- [Vercel AI Gateway](https://vercel.com/ai-gateway)
-- [Replicate](https://replicate.com/)
-- [AnyRouter free models](https://anyrouter.dev/blog/top-free-models-api)
-- [Sarvam](https://www.sarvam.ai/)
-- [MegaNova docs](https://docs.meganova.ai/faq/getting-started)
-- [Parasail docs](https://docs.parasail.io/parasail-docs)
+- [ModelScope API inference tracking](https://free-model.com/provider)
 - [Yingsuan AI](https://yingsuan.top/)
+- [Inception rate limits](https://docs.inceptionlabs.ai/get-started/rate-limits)
+- [Inception 100M free tokens](https://www.inceptionlabs.ai/blog/mercury-2-10x-free-tokens)
+- [Tencent Hunyuan billing](https://cloud.tencent.com/document/product/1729/97731)
+- [FriendliAI serverless pricing](https://friendli.ai/docs/guides/serverless_endpoints/pricing)
+- [MiniMax API overview](https://platform.minimax.io/docs/api-reference/api-overview)
+- [AquaDevs](https://aquadevs.com/plan)
+- [OhMyGPT docs](https://docs.ohmygpt.com/)
+- [Navy AI docs](https://api.navy/docs)
+- [awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api)
