@@ -4,9 +4,32 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16 night)
+## New this pass (2026-09-16 late night)
 
-Research: YoannDev90/awesome-free-ai-api, mvalentsev/awesome-free-ai-coding (live probes), llm24.net, official signup pages. Reviews cross-checked. **New names only**.
+Research: freellm.net, awesome-freellm-apis, mvalentsev/awesome-free-ai-coding (live probes 2026-09-14), velo4705/awesome-free-byok-models, nejib1/Free-LLM, official docs. Reviews cross-checked. **New names only** — none of these rows existed in prior README passes.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [MegaNova](https://meganova.ai) | No-card Tier 1 | ~50 / free row (~550 total) | Not published | Manta + Mistral Small 3.2 | `https://api.meganova.ai/v1` — GLM Flash needs $1 deposit |
+| [Agnes AI](https://agnes-ai.com) | Registration, Flash $0 | ~1,000 | Not published | House Flash + image | `agnes-3.0-flash` / `agnes-2.5-flash`; ~20 RPM |
+| [Aion Labs](https://www.aionlabs.ai/) | Registration, no billing advertised | Daily allowance | ~20k TPD listed | House Aion 3.0 | `https://api.aionlabs.ai/v1` — 15 RPM listed 2026-09-16 |
+| [OpenCode Zen](https://opencode.ai) | Registration | ~500 | 1M pool listed | Coding / reasoning | `https://opencode.ai/zen/v1` — 13 free ids on FreeLLM |
+| [Chutes.ai](https://chutes.ai/) | Registration | Not published | Not published | Community inference | 2 free models on FreeLLM snapshot |
+| [LLM7.io](https://llm7.io) | Anonymous + optional free token | Capacity-based | ~500k–5M tokens/day | No-signup OpenAI compat | Token doubles quota; GLM / MiniMax / Codestral listed |
+| [Glhf.chat](https://glhf.chat/) | Registration | Not published | Not published | Llama / Mixtral chat | Permanent-free row on FreeLLM |
+| [Nscale](https://www.nscale.com/) | Registration | Not published | Not published | EU inference | 2 free models listed; confirm live TOS |
+| [Pollinations.AI](https://pollinations.ai) | No signup | ~1 req / 15s anon | Not published | gpt-oss text + image | `POST https://text.pollinations.ai/openai` |
+| [Hetzner Inference](https://experiments.hetzner.com/inference) | Experimental, no billing yet | Token window / 24h | 500M in / 5M out listed | EU Qwen 3.6 / 3.8 | Experiment — can vanish |
+| [Venice.ai](https://venice.ai/) | Registration | Limited daily | Not published | Privacy-first OSS | ~10 RPM free; Llama / image |
+| [Vercel AI Gateway](https://vercel.com/ai-gateway) | $0-priced ids + $5 credit | Credit-based | Credit-based | Laguna + routed models | Some ids draw $0; others spend the credit |
+| [AIHubMix](https://aihubmix.com/) | Listed `:free` catalog | Not published | Not published | gpt-oss / MiMo / Gemma | Aggregator — confirm current $0 ids |
+| [Typhoon / OpenTyphoon](https://opentyphoon.ai/) | Official free FAQ path | Not published | Not published | Thai + EN OSS | SCB 10X; editorial pick on free-llm-api-hub |
+| [Inference.net](https://inference.net/) | No card, fair use | ~30 RPM | Fair use | DeepSeek-R1 / Llama | Fair-use, not a published RPD |
+| [Cline](https://cline.bot/) | Agent login, rotating free models | Daily allowance / model | Not published | VS Code / JetBrains agent | Tool-tied, not a raw public SaaS |
+
+## Previous pass (2026-09-16 night)
+
+Kept from the prior commit. Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
@@ -52,7 +75,7 @@ Kept from the prior commit. Same columns.
 
 ## Full catalog
 
-Previous rows kept. Same columns. Historical first-party + gateway list lives in commit `8a479bb` if a row is missing here; this file keeps the working set plus the two newest passes.
+Previous rows kept. Same columns. Historical first-party + gateway list lives in commit `8a479bb` if a row is missing here; this file keeps the working set plus the newest passes.
 
 Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`**, **Cloudflare Workers AI**, **Z.AI GLM Flash**, **Mistral**, **Cohere**, **Cerebras**, **Ollama Cloud**, **OVHcloud AI Endpoints**, **Kilo Code**, **Requesty**, **NaraRouter**, **SiliconFlow**, **ModelScope** — then the new rows above.
 
