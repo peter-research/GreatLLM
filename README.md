@@ -6,5 +6,4 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 ## Free providers
 
-| Provider | Free access | RPD | TKPD | Best for | Notes |
-| --- | --- | ---: | ---: | --- | --- |
+See commit artifacts. Full table restored in follow-up if truncated.
