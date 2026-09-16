@@ -4,9 +4,34 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16 late)
+## New this pass (2026-09-16 evening)
 
-Research: FreeLLM / freellm.net, awesome-freellm-apis, freeinference.dev, nejib1/Free-LLM, official rate-limit pages. Community reviews checked; **new names only** (not already in the catalog below).
+Research: FreeLLM / freellm.net / freellm.site, awesome-freellm-apis, freeinference.dev, nejib1/Free-LLM, velo4705/awesome-free-byok-models, bradAGI/awesome-free-inference. Community reviews + official signup pages checked. **New names only** (not already in the catalog below).
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [Together AI](https://api.together.ai/) | Signup / trial credits | Credit-based | Credit-based | Large OSS catalog | ~$1–25 trial reported; some free Llama rows historically |
+| [DeepInfra](https://deepinfra.com/) | Signup trial credit | Credit-based | Credit-based | Cheap OSS serving | ~$1–5 trial, high concurrency; no SLA |
+| [Parasail](https://www.parasail.io/) | Email signup / listed free rows | Not published | Not published | Serverless OSS | OpenAI-compat `api.saas.parasail.io` |
+| [Lambda AI Inference](https://lambda.ai/) | New-user inference credit | Credit-based | Credit-based | GPU cloud + API | ~$10 credit often listed; confirm card policy |
+| [Vercel AI Gateway](https://vercel.com/ai) | Hobby / monthly free envelope | Not published | Not published | App routing on Vercel | Tied to Vercel account, not a raw chat SaaS |
+| [Fal AI](https://fal.ai/) | Free / light generative tier | Not published | Not published | Image / video / multimodal | Stronger on media than text chat |
+| [Replicate](https://replicate.com/) | Small trial + pay-as-you-go | Credit-based | Credit-based | Run any public model | Credits expire; good for one-off models |
+| [FriendliAI](https://friendli.ai/) | Signup free / serverless trial | Not published | Not published | Fast OSS serving | OpenAI-compat serverless path |
+| [Kluster AI](https://kluster.ai/) | ~$5 listed trial | Credit-based | Credit-based | DeepSeek / Llama / Qwen | OpenAI-compat `api.kluster.ai` |
+| [AnyAPI](https://anyapi.ai/) | Free daily token pack | Not published | ~100,000 | Multi-lab gateway | Listed 100k TKPD, no card |
+| [Void AI](https://docs.voidai.app/) | High-RPM free credits | Capacity-based | Credit-based | Coding models | Community reviews: high RPM, verify TOS |
+| [Tencent Hunyuan](https://cloud.tencent.com/product/hunyuan) | CN cloud signup credits | Not published | Not published | Official Hunyuan | Tencent Cloud account; real-name typical |
+| [Baidu ERNIE](https://cloud.baidu.com/product/wenxinworkshop) | Qianfan / ERNIE trial quota | Not published | Not published | Official ERNIE | Baidu Cloud; CN KYC typical |
+| [Sarvam AI](https://www.sarvam.ai/) | India lab starter tier | Not published | Not published | Indic languages | Official API; multilingual IN |
+| [AI Singapore SEA-LION](https://aisingapore.org/) | Research / listed free access | Not published | Not published | SEA languages | Regional lab, not a global router |
+| [Volcengine Ark](https://www.volcengine.com/product/ark) | ByteDance cloud trial tokens | Not published | Not published | Doubao / Seed models | CN cloud; confirm public vs invite |
+| [Inception AI](https://www.inceptionlabs.ai/) | Listed starter / research access | Not published | Not published | Diffusion / Mercury LLMs | Independent lab; quota unpublished |
+| [LG EXAONE](https://www.lgresearch.ai/) | Research / listed starter | Not published | Not published | Korean / bilingual models | LG AI Research; public API status rotates |
+
+## Full catalog
+
+Previous rows kept (labs first, then gateways). Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
@@ -27,13 +52,6 @@ Research: FreeLLM / freellm.net, awesome-freellm-apis, freeinference.dev, nejib1
 | [Modal](https://modal.com/) | Monthly compute credit | Credit-based | Credit-based | Run models as functions | $5–30/mo compute, not a chat SaaS |
 | [MiniMax](https://www.minimax.io/) | Official / CN free rows | Not published | Not published | Coding + long context | Also free via ModelScope hosts |
 | [Moonshot AI](https://platform.moonshot.ai/) | Kimi platform credits | Not published | Not published | Long-context Kimi | Official CN API; NIM also hosts Kimi |
-
-## Full catalog
-
-Previous rows kept (labs first, then gateways). Same columns.
-
-| Provider | Free access | RPD | TKPD | Best for | Notes |
-| --- | --- | ---: | ---: | --- | --- |
 | [NVIDIA NIM](https://build.nvidia.com/) | Free endpoints | Varies | Not published | Open models, high throughput | Limits and model list change often |
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 10k Neurons/day | 10,000 Neurons* | N/A | Serverless / edge | Quota in Neurons, not requests or tokens |
 | [Z.AI](https://z.ai/) | GLM Flash models free | Not published | Not published | Coding, reasoning, CN/EN | GLM-4.7-Flash: 200K context |
@@ -97,10 +115,10 @@ Previous rows kept (labs first, then gateways). Same columns.
 ### Sources checked
 
 - [FreeLLM](https://freellm.net/providers/)
+- [freellm.site](https://www.freellm.site/)
 - [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
 - [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
 - [awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models)
 - [freeinference.dev](https://freeinference.dev/)
 - [nejib1/Free-LLM](https://github.com/nejib1/Free-LLM)
-- [Aion Labs rate limits](https://www.aionlabs.ai/docs/rate-limits/)
-- [Agnes AI token plan](https://wiki.agnes-ai.com/en/docs/tokenplan)
+- [awesome-free-inference](https://github.com/bradAGI/awesome-free-inference)
