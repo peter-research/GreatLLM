@@ -30,6 +30,7 @@ Reviews: community lists mark A4F / AI Pooled / AwanLLM / BazaarLink / BlazeAI /
 | [LiteRouter](https://literouter.com/model_list) | Signup | Catalog-capped | Catalog-capped | Lightweight router | Listed live 2026-09-16. |
 | [MegaNova](https://console.meganova.ai/serverless) | Daily free credits | Credit-shaped | Daily reset cited | RP / Manta series | `https://inference.meganova.ai/v1`. Popular on Janitor / Chub. |
 | [Mixlayer](https://mixlayer.com) | Signup cited on BYOK lists | Unpublished | Unpublished | Serverless mix | Appears on awesome-free-byok-models; verify live quota. |
+| [OpenCode Zen](https://opencode.ai/zen) | Free models available | Unpublished | Unpublished | Coding agents, OpenAI-compatible access | Community measurements suggest a daily request cap, but OpenCode does not publish a stable production quota. Free model IDs can change server-side; use it for experiments rather than production. |
 
 ## Previous pass (2026-09-17 evening-2)
 
@@ -81,3 +82,5 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [felipetruman/free-llm-hub](https://github.com/felipetruman/free-llm-hub)
 - [klymentiev free LLM API review](https://klymentiev.com/blog/free-llm-api)
 - [Gratisfy](https://gratisfy.xyz/)
+- [OpenCode Zen community tracker](https://github.com/thelabcorner/opencode-zen-fut-api)
+- [OpenCode Zen pricing mirror](https://llmprice.gitlab.io/providers/opencode/)
