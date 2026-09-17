@@ -4,9 +4,35 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-16 late night)
+## New this pass (2026-09-17)
 
-Research: freellm.net, awesome-freellm-apis, mvalentsev/awesome-free-ai-coding (live probes 2026-09-14), velo4705/awesome-free-byok-models, nejib1/Free-LLM, official docs. Reviews cross-checked. **New names only** — none of these rows existed in prior README passes.
+Research: freellm.net + changelog 2026-09-17, awesome-freellm-apis, YoannDev90/awesome-free-ai-api (checked 2026-09-16), velo4705/awesome-free-byok-models (verified 2026-09-16/17), freeinference.dev, official docs. Reviews cross-checked against live lists. **New names only** — none of these rows existed in prior README passes.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [AnyAPI](https://anyapi.ai) | No card, `:free` lane | Capacity-based | ~100k listed | Multi-lab `:free` ids | `https://api.anyapi.ai/v1` — Nemotron / Gemma free rows |
+| [Auriko](https://www.auriko.ai) | Registration + listed $0 GLM Flash | Not published | ~1M/mo BYOK cap listed | GLM Flash house ids | `https://api.auriko.ai/v1` — most catalog is credit, only Flash is $0 |
+| [BazaarLink](https://bazaarlink.ai) | `:free` suffix, no card advertised | ~50 | Not published | Lightweight gateway | `10 RPM` listed; Yoann + BYOK list 2026-09-16 |
+| [Void AI](https://voidai.app/) | Registration | Credit pool | ~125k credits/day listed | High RPM coding | BYOK list: ~100 RPM; confirm live TOS |
+| [Intern AI](https://internlm.intern-ai.org.cn/api) | Official intern quota | Monthly pool | ~90M tokens/mo listed | Intern-S2 preview | First-party lab, not a hobby gateway |
+| [TokenReply](https://www.tokenreply.com/) | Listed free plan | Not published | Not published | Multi-model host | Yoann tested 2026-09-16 |
+| [Zylo API](https://api.zyloai.net/v1) | 10 RPM / 7.2k RPD listed | ~7,200 | ~200k | gpt-oss / MiniMax / house Flash | Verified 2026-09-17 on BYOK list |
+| [Zydit AI](https://api.zydit.in/v3) | Free models, 10 RPM listed | Capacity-based | Not published | Mix of OSS ids | `https://api.zydit.in/v3` — verified 2026-09-17 |
+| [PaxSenix](https://api.paxsenix.org/docs) | Listed free catalog | Not published | Not published | Hobby OpenAI-compat | Yoann 2026-09-16 |
+| [Pixazo AI](https://www.pixazo.ai/api/pricing-plan) | Listed free / trial plan | Not published | Not published | Image + text host | Confirm which ids stay $0 |
+| [Pydantic AI Gateway](https://ai.pydantic.dev/gateway/) | Official gateway path | Not published | Not published | Pydantic agent stack | Tool-tied more than raw SaaS |
+| [Rout.my](https://www.rout.my/) | Docs + listed free start | Not published | Not published | Router / OpenAI compat | `docs.rout.my` |
+| [StudioLM](https://studiolm.dev/) | Listed free catalog | Not published | Not published | Studio / hobby host | Yoann 2026-09-16 |
+| [SubNP](https://subnp.com/free-api) | Official free-api page | Not published | Not published | Community API | Yoann 2026-09-16 |
+| [ValorGPT](https://www.valorgpt.com/models) | Listed free catalog | Not published | Not published | Multi-model host | Yoann 2026-09-16 |
+| [ZenLLM](https://zenllm.org/models) | Listed free catalog | Not published | Not published | Community model host | Yoann 2026-09-16 |
+| [A4F](https://gratisfy.xyz/providers) | Listed no-card catalog | Not published | Not published | Aggregated free lane | See Yoann / Gratisfy row |
+| [Electron Hub](https://gratisfy.xyz/providers) | Listed Aug 2026 add | Not published | Not published | Multi-model hub | Confirm current $0 ids |
+| [EvolveX](https://gratisfy.xyz/providers) | Listed Aug 2026 add | Not published | Not published | Hobby gateway | Confirm live TOS |
+
+## Previous pass (2026-09-16 late night)
+
+Kept from the prior commit. Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
