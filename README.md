@@ -6,34 +6,38 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 First commit of this repo started from [FreeLLM](https://freellm.net/) and the awesome free-LLM lists. Each pass: research → check reviews / official pages → commit **README only**, **new provider names only**.
 
-## New this pass (2026-09-17 afternoon)
+## New this pass (2026-09-17 late afternoon)
 
-Research: freellm.net/providers (31 hosts, refreshed 2026-09-17), open-free-llm-api/awesome-freellm-apis, mnfst/awesome-free-llm-apis (Aion / GitHub Models / Nscale / Nebius / DeepSeek / xAI / AI21 / Chutes / glhf), DataTalksClub llm-zoomcamp awesome-llms (reviewed 2026-06-30), nejib1/Free-LLM + free-llm.com, bradAGI/awesome-free-inference, mvalentsev/awesome-free-ai-coding probes, r/LLMDevs and r/LocalLLM threads (GitHub Models and DeepSeek signup credits come up often; Chutes and glhf are the long tail; xAI free lane is thin).
-Reviews: mnfst and freellm.net still list GitHub Models, Aion Labs, Chutes, Nscale, Nebius, DeepSeek, xAI, AI21 as free-or-credit rows. Venice and Moonshot appear as renewable / regional credits. Together and Fireworks are one-shot credits, not permanent $0 models. Cerebras and Infomaniak stay delisted from this repo.
-**New names only** — none of these rows were provider lines in the night README (`df9538f`).
+Research: freellm.net/providers (31 hosts, 2026-09-17), open-free-llm-api/awesome-freellm-apis, mvalentsev/awesome-free-ai-coding (Kiro / Jules / Copilot Free / VLM Run / Opper / Inception / Agnes), nejib1/Free-LLM + free-llm.com (Novita, Scaleway, Hyperbolic, Lepton), freeinference.dev (Trae, Poe, Dify, Copilot), felipetruman/free-llm-hub (Avian.io).
+Reviews: Agnes AI is live on freellm.net with 5 models. VLM Run Gateway is probe-noted as anonymous IP quota. Novita / Scaleway / Hyperbolic / Lepton are credit or $0-token lanes, not Groq-class permanent pools. Kiro / Jules / Copilot Free / Trae are product-bundled inference, not raw multi-tenant SaaS. Cerebras and Infomaniak stay delisted.
+**New names only** — none of these rows were provider lines in the afternoon README (`8443c1c`).
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| [GitHub Models](https://github.com/marketplace/models) | GitHub account, `models:read` token | ~50–150 / model tier | Per-request cap (often 8k in / 4k out) | GPT-family + Llama / DeepSeek proto | Base `https://models.github.ai/inference`. No card. Limits tied to Copilot tier. |
-| [Aion Labs](https://www.aionlabs.ai/app/api-keys/) | Permanent free key, no card | Low (token-capped) | ~20k / day cited | Roleplay / story GLM-style ids | `https://api.aionlabs.ai/v1`. ~15 RPM. Niche, not a coding workhorse. |
-| [Chutes.ai](https://chutes.ai) | Registration | Catalog-capped | Catalog-capped | Community TEE / OSS routes | Listed on freellm.net with a tiny free catalog. Treat as unstable. |
-| [Nscale](https://www.nscale.com) | Signup credit, often no card | Fair-use after credit | Credit-shaped | EU sovereign OSS (Llama / Qwen / gpt-oss) | `https://inference.api.nscale.com/v1`. Norway DC. Credit, not a fat permanent pool. |
-| [Nebius Token Factory](https://studio.nebius.com) | Signup credit (EU) | Tier-based | Credit-shaped | OSS studio (Llama / DeepSeek / Qwen / gpt-oss) | `https://api.studio.nebius.com/v1`. Some reports now want a card on file — check before signup. |
-| [DeepSeek](https://platform.deepseek.com) | Signup token grant | Dynamic | Grant then pay-as-you-go | Official `deepseek-chat` / reasoner | `https://api.deepseek.com/v1`. Credits expire; prompts may train unless opted out. |
-| [xAI](https://console.x.ai) | Registration + thin free / trial lane | Low on free | Trial / plan-capped | Grok text, huge context on paid | `https://api.x.ai/v1`. Free lane is the weak part; do not plan production on it. |
-| [AI21 Labs](https://studio.ai21.com) | Registration | Catalog-capped | Catalog-capped | Jamba / Jurassic text | Listed with 2 free models on awesome-freellm-apis. Confirm current Studio free column. |
-| [glhf.chat](https://glhf.chat) | Registration | Catalog-capped | Catalog-capped | Small OSS chat host | Tiny catalog on freellm.net. Long-tail, easy to vanish. |
-| [Moonshot / Kimi](https://platform.moonshot.ai) | Regional signup credit | Very low RPM cited (~3) | Credit-shaped | Official Kimi / long-context | China / intl consoles differ. Not the same as OpenRouter `:free` Kimi rows. |
-| [MiniMax](https://www.minimax.io) | Official platform signup | See console | See console | Official M-series, long context | Distinct from MiniMax ids on NIM / Ollama Cloud / aggregators. |
-| [Venice.ai](https://venice.ai) | Registration, privacy-oriented | ~10 RPM cited | Daily-capped | Uncensored OSS chat | Renewable limited daily use. More product than raw infra. |
-| [Together AI](https://www.together.ai) | One-time research / signup credit | After credit: paid | After credit: paid | Fast OSS cluster | Not a permanent $0 catalog. Some "free research" rows still want a deposit. |
-| [Fireworks AI](https://fireworks.ai) | One-time ~$1 credit | After credit: paid | After credit: paid | Fast OSS inference | Same class as Together: try, then pay. |
-| [Inference.net](https://inference.net) | Listed OpenAI-compat host | See docs | See docs | Community inference | Appears on free-llm.com key tables. Verify live models before wiring agents. |
-| [AI Horde](https://aihorde.net) | Community swarm, no card | Shared queue | Shared queue | Volunteer GPU text / image | Not a classic SaaS SLA. Good fallback, bad for latency-critical apps. |
+| [Agnes AI](https://platform.agnes-ai.com/settings/apiKeys) | Registration, no card | Catalog-capped | Catalog-capped | agnes-2.x / 3.0 flash multimodal | `https://platform.agnes-ai.com` keys. Listed on freellm.net (~5 models). |
+| [VLM Run Gateway](https://docs.vlm.run) | Anonymous IP quota + keyed tier | ~100 / IP (anon) | Anon-capped | Qwen3.8-27B style VL + text | Alpha gateway. ~10 RPM / 30 RPH / 100 RPD per IP without a key. |
+| [Novita AI](https://novita.ai) | Signup voucher + some $0 models | After credit: paid | ~$0.50 then pay | OSS + image/GPU sidecar | `https://api.novita.ai/v3/openai`. A few $0/token OSS ids reported; voucher is one-shot. |
+| [Scaleway Generative APIs](https://console.scaleway.com/generative-api/models) | Signup token grant (EU) | Grant then pay | ~1M tokens cited | FR / EU OSS (Llama / Qwen / gpt-oss) | `https://api.scaleway.ai/v1`. Credit, not a fat permanent pool. |
+| [Hyperbolic](https://hyperbolic.xyz) | Small signup credit | After credit: paid | Trial-shaped | Cheap OSS cluster | One-shot ~$1 class credit in directories. Card for anything serious. |
+| [Lepton AI](https://www.lepton.ai) | Signup credit | After credit: paid | Trial-shaped | Fast OSS endpoints | ~$10 trial rows appear in hubs. Not permanent $0. |
+| [Avian.io](https://avian.io) | Freemium listing | Catalog-capped | Catalog-capped | Llama / Qwen host | Appears on free-llm-hub as freemium. Verify live models before agents. |
+| [Inception Labs (Mercury)](https://www.inceptionlabs.ai) | Registration / trial | Catalog-capped | Catalog-capped | Mercury diffusion LLMs | mercury-2 / 2.5 cited on awesome-free-ai-coding. Diffusion, not a GPT clone. |
+| [Opper](https://opper.ai) | Registration | Catalog-capped | Catalog-capped | Gemma-4-31B routing | Named as a free Gemma-4 host on mvalentsev model map. Confirm console. |
+| [Kiro](https://kiro.dev) | Social / AWS Builder ID, no card | ~50 credits / mo | Credit-shaped | Qwen Coder / DeepSeek / Claude in IDE | Product quota, not a raw public API you embed everywhere. |
+| [Google Jules](https://jules.google) | Google login, no card | Product-capped | Product-capped | Gemini-family coding agent | Bundled Gemini 2.5-class work. Not AI Studio keys. |
+| [GitHub Copilot Free](https://github.com/features/copilot) | GitHub account, no card | ~2k completions / mo | Unpublished AI credits | IDE + CLI bundled models | Distinct from GitHub Models inference API. Auto-selected models. |
+| [Trae](https://www.trae.ai) | Registration, no card | ~5k autocompletes / mo | Product-capped | ByteDance IDE agent | Frontier models bundled in the product UI. |
+| [Poe](https://poe.com) | Login, daily points | Daily reset | Unpublished points | Chat access to many frontier ids | Resale / points. Fine to try models; poor as a production SDK. |
+| [Dify Cloud](https://dify.ai) | Sandbox credits | One-shot ~200 msgs | Trial-shaped | Agent builder + routed models | Then BYO key. Good to prototype apps, not a raw LLM host. |
+| [Replicate](https://replicate.com) | Tiny signup credit | After credit: paid | Credit-shaped | OSS + image / video models | Pay-per-run after the trial. Useful for multimodal experiments. |
+
+## Previous pass (2026-09-17 afternoon)
+
+Kept from the prior commit. Same columns. See git history (`8443c1c`) if this file is viewed in isolation.
+
+Afternoon rows (do not re-add): GitHub Models, Aion Labs, Chutes.ai, Nscale, Nebius Token Factory, DeepSeek, xAI, AI21 Labs, glhf.chat, Moonshot / Kimi, MiniMax, Venice.ai, Together AI, Fireworks AI, Inference.net, AI Horde.
 
 ## Previous pass (2026-09-17 night)
-
-Kept from the prior commit. Same columns. See git history (`df9538f`) if this file is viewed in isolation.
 
 Night rows (do not re-add): LLM7.io, SambaNova Cloud, Hetzner Inference API, Pollinations.AI, AIHubMix, Freebuff, Token Harbor, Routeway, LLMTR, Nous Portal, opencode, Cline, Vercel AI Gateway, Regolo AI, Alibaba Cloud Model Studio, Hugging Face Inference, FreeInference.
 
@@ -43,7 +47,7 @@ Evening rows (do not re-add): Requesty, Kilo Code, OVHcloud AI Endpoints, Silico
 
 Historical first-party + gateway list lives in earlier commits on `main` (Google AI Studio, Groq, NVIDIA NIM, OpenRouter `:free`, Cloudflare Workers AI, Z.AI GLM Flash, Mistral, Cohere, Ollama Cloud).
 
-Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`**, **Cloudflare Workers AI**, **Z.AI GLM Flash**, then **GitHub Models**, **LLM7.io**, **SambaNova**, **DeepSeek** (while the grant lasts), **Aion Labs** for RP.
+Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`**, **Cloudflare Workers AI**, **Z.AI GLM Flash**, then **GitHub Models**, **LLM7.io**, **SambaNova**, **DeepSeek** (while the grant lasts), **Aion Labs** for RP, **Agnes AI** / **VLM Run** for a thin extra lane.
 
 * Approximate daily figures. Quotas change often.
 
@@ -68,3 +72,4 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [awesome-free-inference](https://github.com/bradAGI/awesome-free-inference)
 - [DataTalksClub awesome-llms](https://github.com/DataTalksClub/llm-zoomcamp/blob/main/awesome-llms.md)
 - [ClawLabsAI/free-ai-models](https://github.com/ClawLabsAI/free-ai-models)
+- [felipetruman/free-llm-hub](https://github.com/felipetruman/free-llm-hub)
