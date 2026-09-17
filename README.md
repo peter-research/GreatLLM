@@ -4,9 +4,34 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-17 midday)
+## New this pass (2026-09-17 afternoon)
 
-Research: YoannDev90/awesome-free-ai-api (2026-09-16 table + 2026 changelog), freellm.net providers/changelog 2026-09-17, awesome-freellm-apis, velo4705/awesome-free-byok-models, mvalentsev/awesome-free-ai-coding, official provider pages. Reviews: Yoann Tested column (AIchixia / Resurge / SambaNova / HF / watsonx ✅; SwiftRouter / Subaxis / SixFinger ❌). **New names only** — none of these rows existed in prior README passes.
+Research: freellm.net providers + changelog 2026-09-17, freellm.site permanent/credit tables (verified 2026-06-28, still listed), YoannDev90/awesome-free-ai-api (GitHub Models ✅ 2026-09-16), freeinference.dev 2026-09-17, official docs (Parasail `api.parasail.io/v1`, DeepSeek platform, xAI console, Nebius Studio).
+Reviews: Yoann Tested column for GitHub Models ✅; Parasail public pricing is PAYG with a thin 5 RPM serverless try lane (not a fat $0 catalog); DeepSeek / xAI / AI21 / Hyperbolic / Lambda / Together / DeepInfra are signup-credit or trial, not permanent unlimited $0.
+**New names only** — none of these rows existed in prior README passes.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [GitHub Models](https://github.com/marketplace/models) | Copilot / Marketplace free lane | Copilot-capped | Copilot-capped | Phi + hosted OSS in GitHub | Yoann tested 2026-09-16; freellm.net lists 16 ids |
+| [DeepSeek](https://platform.deepseek.com/api_keys) | Signup credit (~$5 listed) | Credit-based | Credit-based | First-party V3/V4 family | Not the NIM/OpenRouter relay — confirm live credit |
+| [xAI / Grok](https://console.x.ai) | Listed monthly trial credit | Credit-based | Credit-based | Grok API first-party | freellm.site ~$25/mo snapshot; card/email policy can change |
+| [AI21 Labs](https://studio.ai21.com/account/api-key) | Signup credit (~$10 listed) | Credit-based | Credit-based | Jamba / house stack | freellm.net + freellm.site; trial not permanent $0 |
+| [Nebius AI Studio](https://studio.nebius.com/settings/api-keys) | Signup credit (~$1 listed) | Credit-based | Credit-based | EU-hosted OSS catalog | freellm.net 1 free-row snapshot; then PAYG |
+| [Parasail](https://docs.parasail.io/parasail-docs) | Serverless try lane ~5 RPM | Capacity-based | Capacity-based | Fast OSS serverless | `https://api.parasail.io/v1` — catalog is mostly PAYG |
+| [Hyperbolic](https://app.hyperbolic.xyz/settings) | Signup credit (~$10 listed, no expiry on directory) | Credit-based | Credit-based | Cheap GPU inference | Directory snapshot 2026-06-28; confirm live TOS |
+| [Lambda AI Inference](https://lambda.ai) | Signup credit (~$10 listed) | Credit-based | Credit-based | GPU cloud inference | Credit then PAYG |
+| [Together AI](https://api.together.ai/settings/api-keys) | Small signup credit (~$1 listed) | Credit-based | Credit-based | Broad OSS host | Some sources now say min-purchase — verify before signup |
+| [DeepInfra](https://deepinfra.com) | Signup credit (~$1 listed) | Credit-based | Credit-based | OpenAI-compat OSS | Trial, not a published RPD |
+| [Replicate](https://replicate.com) | Listed free-tier path | Credit-based | Credit-based | Model-as-endpoint + image | More prediction API than raw chat SaaS |
+| [Fal AI](https://fal.ai) | Listed free-tier path | Credit-based | Credit-based | Fast image / media models | Multimodal first; confirm text ids |
+| [AI4Bharat](https://ai4bharat.iitm.ac.in) | Lab / no-card path listed | Not published | Not published | Indic-language models | IITM lab; not a hobby gateway |
+| [BharatGen](https://bharatgen.iitb.ac.in) | Lab / no-card path listed | Not published | Not published | Indic generative stack | IITB; confirm public API vs demo |
+| [AI Singapore / SEA-LION](https://aisingapore.org) | Official SEA-LION path | Not published | Not published | SEA languages | Regional lab API, not a multi-lab router |
+| [Falcon / TII](https://falconllm.tii.ae) | Official TII Falcon path | Not published | Not published | Falcon family | First-party lab; confirm live inference vs weights-only |
+
+## Previous pass (2026-09-17 midday)
+
+Kept from the prior commit. Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
