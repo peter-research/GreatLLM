@@ -4,38 +4,41 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-17 evening)
+## New this pass (2026-09-17 night)
 
-Research: freellm.net /providers + changelog 2026-09-17, awesome-freellm-apis README (refreshed 2026-09-17), mvalentsev/awesome-free-ai-coding (probes 2026-09-17), freeinference.dev 2026-09-17, KDnuggets 2026-09-17 five-provider review, klymentiev.com no-card map (Sep 2026), AnyRouter docs `/features/free-tier`, NaraRouter plan notes on Volksdroid, OVHcloud / SiliconFlow / ModelScope / Requesty official catalog pages.
-Reviews: mvalentsev last-verified column for Requesty, Kilo Code, Amazon Q Developer, OVHcloud, SiliconFlow, ModelScope (2026-09-17). AnyRouter official docs: Free plan is 10 RPD on `anyrouter/free`; 1k RPD needs Go ($2) or a donated key — not a fat no-strings $0 pool. Amazon Q Developer Free is 50 agentic requests/month for Builder ID, IDE/CLI-tied. Kilo Code is an agent gateway with rotating $0 ids, not a raw multi-lab SaaS. Cerebras was delisted from awesome-free-ai-coding on 2026-09-17 — omitted here.
-**New names only** — none of these rows existed as provider lines in prior README passes.
+Research: freellm.net providers + changelog 2026-09-17, open-free-llm-api/awesome-freellm-apis (refreshed 2026-09-17), mvalentsev/awesome-free-ai-coding probes 2026-09-17 (LLM7.io + Nous Portal added the same day), nejib1/Free-LLM / free-llm.com, ClawLabsAI/free-ai-models daily dump, AIHubMix free-catalog blog, Pollinations / SambaNova / Hetzner experiment pages, community reviews on r/LLMDevs and r/LocalLLM (Gemini / Groq / OpenRouter still the reliable core; new names are the long tail).
+Reviews: mvalentsev last-verified 2026-09-17 for LLM7.io, SambaNova, Hetzner Inference, Pollinations.AI, AIHubMix, Freebuff, Routeway, LLMTR, Nous Portal, opencode, Cline, Vercel AI Gateway, Regolo AI, Alibaba DashScope international, Hugging Face Inference, FreeInference. Cerebras and Infomaniak stay delisted. Aggregators marked as such.
+**New names only** — none of these rows were provider lines in the evening README (`6b9c920`).
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| [Requesty](https://www.requesty.ai) | $0 plan, free-priced catalog rows | ~200 | Not published | One-key router + fallbacks | mvalentsev verified 2026-09-17; 12 $0 rows, no card |
-| [Kilo Code](https://kilo.ai) | Agent / gateway, no card | ~200 listed on some ids | Not published | Nemotron / Laguna / Step Flash | `https://api.kilo.ai/api/gateway` — tool-tied more than raw chat |
-| [OVHcloud AI Endpoints](https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/) | Registration, EU catalog | See docs | See docs | EU-hosted OSS | `https://oai.endpoints.kepler.ai.cloud.ovh.net/v1` — freellm.net 14 free ids |
-| [SiliconFlow](https://cloud.siliconflow.cn/account/ak) | Registration + listed free rows | High RPM advertised | Not published | CN OSS host | `https://api.siliconflow.cn/v1` — some sources cite 1k RPM; confirm live $0 ids |
-| [ModelScope](https://modelscope.cn/my/myaccesstoken) | Registration, large free catalog | Shared daily pool | Shared daily pool | Qwen / MiniMax / GLM on Alibaba lab | `https://api-inference.modelscope.cn/v1` — changelog dropped two Qwen3.5 rows 2026-09-17 |
-| [Amazon Q Developer](https://aws.amazon.com/q/developer/) | Builder ID Free Tier | ~50 agentic / month | Not published | IDE + CLI coding agent | Added on awesome-free-ai-coding 2026-09-17; not a raw chat SaaS |
-| [AnyRouter](https://anyrouter.dev) | Signup; `anyrouter/free` | 10 on Free / 1k on Go | $0 per token on free ids | Multi-lab router + failover | Official docs 2026-09-17; Go is $2 or donate-a-key |
-| [Google Antigravity](https://antigravity.google) | No-card coding agent listed | Tool-capped | Tool-capped | Gemini + Claude + gpt-oss in agent | mvalentsev start-here row 2026-09-17; confirm product URL / TOS |
-| [CodeGPT](https://codegpt.co) | Economy free lane | Not published | Not published | IDE assistant | Models on Economy unpublished; paid Professional ~$9–10/mo |
-| [QwenCloud](https://chat.qwen.ai) | First-party Qwen cloud path | Not published | Not published | Qwen3.x official host | Listed as AnyRouter BYOK upstream 2026-09; confirm public API vs chat-only |
-| [ZenMux](https://zenmux.ai) | Listed gateway / BYOK path | Not published | Not published | Multi-lab mux | Appears on AnyRouter BYOK roster 2026-09-15 |
-| [Kluster AI](https://kluster.ai) | Freemium inference listed | Not published | Not published | Hosted OSS / R1 class | Free-LLM Hub inference table; confirm current $0 vs trial |
-| [Upstage](https://www.upstage.ai) | Signup trial credit listed | Credit-based | Credit-based | Solar house models | Trial then PAYG — dreamprompting 2026 comparison |
-| [Featherless.ai](https://featherless.ai) | Listed free / hobby inference | Capacity-based | Capacity-based | HuggingFace-style serverless OSS | Community catalogs; confirm live TOS + rate page |
-| [FriendliAI](https://friendli.ai) | Listed trial / free start | Credit-based | Credit-based | Fast dedicated endpoints | Trial-shaped, not a published permanent RPD |
-| [Baseten](https://www.baseten.co) | Signup trial credit listed | Credit-based | Credit-based | Deployed model endpoints | More platform than chat SaaS; credit then PAYG |
+| [LLM7.io](https://llm7.io) | Anonymous + free token | ~60/h anon; token lifts RPM | 500k anon / 1M with token | No-account OpenAI-compat | Added on awesome-free-ai-coding 2026-09-17; `https://api.llm7.io/v1`. Operator does not name upstreams. |
+| [SambaNova Cloud](https://cloud.sambanova.ai) | Free while no card linked | 20 / model | 200k / model | gpt-oss / Gemma 4 / DeepSeek on RDU | Probe 2026-09-17: 20 RPM + 20 RPD per model. Linking a card ends the free lane. |
+| [Hetzner Inference API](https://docs.hetzner.com/general/company-and-policy/experiments/inference/) | EU experiment, OpenAI-compat | Experiment-capped | Experiment-capped | Qwen 3.6 / 3.8 on Hetzner metal | Free only while the experiment runs. Good EU residency option. |
+| [Pollinations.AI](https://pollinations.ai) | Keyless text API | ~1 req / 15s anonymous | Not published | gpt-oss + image/text toys | `POST https://text.pollinations.ai/openai`. Catalog is thin; no signup. |
+| [AIHubMix](https://aihubmix.com) | Signup, $0 catalog rows | ~5 RPM / ~500 RPD cited | Not published | One key, subsidized frontier + OSS | Probe 2026-09-17 added glm-5.3 + kimi-k3. Aggregator — treat as unstable. |
+| [Freebuff](https://freebuff.com) | Listed $0 coding lane | Not published | Not published | glm-5.3-flash / deepseek-v4.1-flash / mimo-v2.5 | Model set rotated 2026-09-17 (dropped v4-flash). Confirm live ids. |
+| [Token Harbor](https://tokenharbor.com) | Listed $0 host | Not published | Not published | mimo-v2.5 / deepseek-v4.1-flash | Appears as sibling host to Freebuff on the 2026-09-17 family map. |
+| [Routeway](https://routeway.ai) | `:free` suffix only | Catalog-capped | Catalog-capped | deepseek-v4-flash free ids | Only `:free` rows are $0; rest is metered. |
+| [LLMTR](https://llmtr.com) | Public $0 chat rows | Not published | Not published | qwen3.6 / nemotron-3-ultra / Ling 3.0 | 13 $0 chat ids on 2026-09-16; some Ling / Dots rows expire late Sep 2026. |
+| [Nous Portal](https://portal.nousresearch.com) | $0 Hermes Agent plan | Plan-capped | Plan-capped | Step 3.7 Flash / Laguna S 2.1 | Added 2026-09-17. OpenAI-compat; eight $0 ids on 2026-09-16. |
+| [opencode](https://opencode.ai) | Keyless Zen gateway | Session / tool-capped | Session / tool-capped | Agent + raw $0 ids (mimo, nemotron, ling) | No card. Gateway also usable from other OpenAI clients. |
+| [Cline](https://cline.bot) | Free agent + some $0 gateway ids | Tool-capped | Tool-capped | Laguna / Union Alpha via Cline | Dropped deepseek-v4-flash on 2026-09-17. More agent than raw SaaS. |
+| [Vercel AI Gateway](https://vercel.com/ai-gateway) | Hobby / listed $0 rows | Plan-capped | Plan-capped | Laguna S 2.1 among free ids | Vercel account. Confirm which ids stay $0 vs credit. |
+| [Regolo AI](https://regolo.ai/pricing/) | Registration, EU | See pricing page | See pricing page | gpt-oss / qwen3.8 / glm-5 / apertus-70b | EU host on the 2026-09-17 family map. |
+| [Alibaba Cloud Model Studio](https://www.alibabacloud.com/help/en/model-studio/) | International DashScope signup | See DashScope free column | See DashScope free column | qwen3-coder / qwen3.8-max | Distinct from ModelScope (already listed). Phone / region checks apply. |
+| [Hugging Face Inference](https://huggingface.co/docs/api-inference) | Account, no card | ~300 / hour cited | Credit-shaped routing | OSS routers + serverless | Free routing credit is small; not a fat RPD pool. |
+| [FreeInference](https://freeinference.org) | Harvard SEAS listed host | Shared academic pool | Shared academic pool | qwen3.6 / deepseek-v4-flash / glm-5.3-flash | Academic / research-shaped capacity. Confirm ToS before bots. |
 
-## Previous pass (2026-09-17 afternoon)
+## Previous pass (2026-09-17 evening)
 
-Kept from the prior commit. Same columns. See git history `72f65e51` for the afternoon table if this file is viewed in isolation.
+Kept from the prior commit. Same columns. See git history for the evening table (`6b9c920`) if this file is viewed in isolation.
 
-Historical first-party + gateway list lives in commit `8a479bb` and subsequent passes on `main`. This file keeps the newest pass plus a pointer to older rows.
+Evening rows (do not re-add): Requesty, Kilo Code, OVHcloud AI Endpoints, SiliconFlow, ModelScope, Amazon Q Developer, AnyRouter, Google Antigravity, CodeGPT, QwenCloud, ZenMux, Kluster AI, Upstage, Featherless.ai, FriendliAI, Baseten.
 
-Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`**, **Cloudflare Workers AI**, **Z.AI GLM Flash**, **Mistral**, **Cohere**, **Ollama Cloud**, **OVHcloud AI Endpoints**, **Kilo Code**, **Requesty**, **SiliconFlow**, **ModelScope** — then the new rows above.
+Historical first-party + gateway list lives in earlier commits on `main` (Google AI Studio, Groq, NVIDIA NIM, OpenRouter `:free`, Cloudflare Workers AI, Z.AI GLM Flash, Mistral, Cohere, Ollama Cloud).
+
+Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`**, **Cloudflare Workers AI**, **Z.AI GLM Flash**, then **LLM7.io**, **SambaNova**, **Hetzner**, **opencode**, **AIHubMix**, **Requesty**.
 
 * Approximate daily figures. Quotas change often.
 
@@ -57,3 +60,4 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [freeinference.dev](https://freeinference.dev/)
 - [nejib1/Free-LLM](https://github.com/nejib1/Free-LLM)
 - [awesome-free-inference](https://github.com/bradAGI/awesome-free-inference)
+- [ClawLabsAI/free-ai-models](https://github.com/ClawLabsAI/free-ai-models)
