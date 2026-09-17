@@ -29,3 +29,31 @@ Reviews: mvalentsev last-verified column for Requesty, Kilo Code, Amazon Q Devel
 | [FriendliAI](https://friendli.ai) | Listed trial / free start | Credit-based | Credit-based | Fast dedicated endpoints | Trial-shaped, not a published permanent RPD |
 | [Baseten](https://www.baseten.co) | Signup trial credit listed | Credit-based | Credit-based | Deployed model endpoints | More platform than chat SaaS; credit then PAYG |
 
+## Previous pass (2026-09-17 afternoon)
+
+Kept from the prior commit. Same columns. See git history `72f65e51` for the afternoon table if this file is viewed in isolation.
+
+Historical first-party + gateway list lives in commit `8a479bb` and subsequent passes on `main`. This file keeps the newest pass plus a pointer to older rows.
+
+Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`**, **Cloudflare Workers AI**, **Z.AI GLM Flash**, **Mistral**, **Cohere**, **Ollama Cloud**, **OVHcloud AI Endpoints**, **Kilo Code**, **Requesty**, **SiliconFlow**, **ModelScope** — then the new rows above.
+
+* Approximate daily figures. Quotas change often.
+
+### How this list is built
+
+1. Scan public directories (FreeLLM, awesome-free lists).
+2. Cross-check community reviews and official docs.
+3. Keep **new providers only** when extending.
+4. Flag aggregators and experiments: they disappear first.
+
+### Sources checked
+
+- [FreeLLM](https://freellm.net/providers/)
+- [freellm.site](https://www.freellm.site/)
+- [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis)
+- [awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api)
+- [awesome-free-ai-coding](https://github.com/mvalentsev/awesome-free-ai-coding)
+- [awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models)
+- [freeinference.dev](https://freeinference.dev/)
+- [nejib1/Free-LLM](https://github.com/nejib1/Free-LLM)
+- [awesome-free-inference](https://github.com/bradAGI/awesome-free-inference)
