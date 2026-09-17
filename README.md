@@ -4,9 +4,35 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-17)
+## New this pass (2026-09-17 morning)
 
-Research: freellm.net + changelog 2026-09-17, awesome-freellm-apis, YoannDev90/awesome-free-ai-api (checked 2026-09-16), velo4705/awesome-free-byok-models (verified 2026-09-16/17), freeinference.dev, official docs. Reviews cross-checked against live lists. **New names only** — none of these rows existed in prior README passes.
+Research: YoannDev90/awesome-free-ai-api (checked 2026-09-16), freellm.net changelog 2026-09-17, awesome-freellm-apis, velo4705/awesome-free-byok-models, OuterSpacee/free-ai-apis, official provider pages. Reviews: Yoann tested column + Gratisfy status. **New names only** — none of these rows existed in prior README passes.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [AI Horde](https://aihorde.net/details/models) | Distributed volunteer inference, no card | Capacity-based | Capacity-based | Crowd-sourced OSS chat / image | Slow queue; Yoann tested 2026-09-16 |
+| [AI Pooled](https://ai.pooled.dev) | Listed free catalog | Not published | Not published | Shared pool gateway | Yoann + Gratisfy 2026-09-16 |
+| [Apertis](https://apertis.ai/models?sort=price_low) | Sort-by-price $0 rows | Not published | Not published | Price-sorted OSS catalog | Confirm which ids stay $0 |
+| [Atessa](https://atessa.top/) | Listed free host | Not published | Not published | Hobby OpenAI-compat | Yoann tested 2026-09-16 |
+| [AwanLLM](https://www.awanllm.com/models) | Listed free catalog | Not published | Not published | Multi-model host | Yoann 2026-09-16 |
+| [BlazeAI](https://blazeai.boxu.dev/#models) | Listed free catalog | Not published | Not published | Lightweight gateway | Yoann 2026-09-16 |
+| [Coze](https://www.coze.com/open) | Official open platform path | Not published | Not published | Bot / agent platform API | ByteDance stack; not raw chat-only |
+| [Crax GPT](https://gpt.crax.lol/) | Listed free catalog | Not published | Not published | Hobby multi-model | Yoann tested 2026-09-16 |
+| [DGrid AI](https://dgrid.ai/models/dgridai/free/) | Official `/free/` catalog | Not published | Not published | Decentralized free lane | First-party free page |
+| [FastRouter](https://fastrouter.ai/models/) | Listed free catalog | Not published | Not published | Router / multi-lab | Yoann 2026-09-16 |
+| [Flowbar AI](https://flowbarai.com/pricing) | Listed pricing / free start | Not published | Not published | Multi-model host | Confirm current $0 ids |
+| [LiteRouter](https://literouter.com/model_list) | Listed free catalog | Not published | Not published | Lightweight router | Yoann 2026-09-16 |
+| [LLM-Gateway](https://llmgateway.io/models?filters=1&free=true) | Official `free=true` filter | Not published | Not published | Filtered $0 catalog | First-party free filter |
+| [Mixedbread](https://www.mixedbread.com/pricing) | Listed free / trial path | Not published | Not published | Embeddings + retrieval | More RAG than chat |
+| [MNN AI](https://mnnai.ru/) | Listed free catalog | Not published | Not published | RU hobby OpenAI-compat | Yoann 2026-09-16 |
+| [NagaAI](https://naga.ac/models) | Listed free catalog | Not published | Not published | Multi-model host | Yoann 2026-09-16 |
+| [Nexusify](https://docs.nexusify.co/) | Docs + listed free path | Not published | Not published | Gateway / docs-first | Yoann 2026-09-16 |
+| [Ofox](https://ofox.ai/models) | Listed free catalog | Not published | Not published | Multi-model host | Yoann 2026-09-16 |
+| [Inception Labs](https://platform.inceptionlabs.ai/) | Official Mercury platform | Not published | Not published | Diffusion LLMs (Mercury 2) | Yoann: untested 2026-09-16 |
+
+## Previous pass (2026-09-17)
+
+Kept from the prior commit. Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
