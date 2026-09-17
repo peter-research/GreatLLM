@@ -6,31 +6,35 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 First commit of this repo started from [FreeLLM](https://freellm.net/) and the awesome free-LLM lists. Each pass: research → check reviews / official pages → commit **README only**, **new provider names only**.
 
-## New this pass (2026-09-17 night-2)
+## New this pass (2026-09-17 night-3)
 
-Research: [YoannDev90/awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api) (78 APIs, last checked 2026-09-16/17), [velo4705/awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models) (AnyAPI, ElectronHub, FastRouter, MegaNova, Mixlayer, Intern AI, Naga AI), [freellm.net/providers](https://freellm.net/providers/), [Gratisfy](https://gratisfy.xyz/).
-Reviews: community lists mark A4F / AI Pooled / AwanLLM / BazaarLink / BlazeAI / FastRouter / LiteRouter as live OpenAI-compat gateways with thin free lanes. ElectronHub and AnyAPI are credit hubs (free signup, paid catalog after burn). MegaNova is RP-shaped (Manta series). Coze and watsonx are product / cloud consoles, not Groq-class pools. Cerebras stays delisted.
-**New names only** — none of these rows were provider lines in the evening-2 README (`208c0062`).
+Research: [YoannDev90/awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api) (daily site check 2026-09-16/17), [velo4705/awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models) (Void AI, Intern AI, xKiro), [foisalislambd/all-llm-provider-list](https://github.com/foisalislambd/all-llm-provider-list), [FreeTheAi](https://freetheai.xyz/), [Gratisfy](https://gratisfy.xyz/), [freellm.net/providers](https://freellm.net/providers/).
+Reviews: community lists mark Atessa / CoderPlan / Completions / Crax GPT / Flowbar / FreeTheAI / Hubs02225 / LLM Gateway / Logfare / Mixedbread / MNN AI / NagaAI / Nexusify / Ofox / OhMyGPT as live OpenAI-compat or console hosts (tested ✅ on 2026-09-16 except AquaDevs / Navy / Void which stay untested on that table). Void AI is still cited on BYOK lists for high RPM coding ids. watsonx is IBM cloud, not a Groq-class pool. Cerebras stays delisted as a card-gated credit.
+**New names only** — none of these rows were provider lines in the night-2 README (`e52fef00`).
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
-| [A4F](https://www.a4f.co/models) | Registration, no card cited | Catalog-capped | Catalog-capped | Multi-model gateway | Listed live on awesome-free-ai-api 2026-09-16. OpenAI-compat via Gratisfy maps. |
-| [AI Pooled](https://ai.pooled.dev) | Signup | Catalog-capped | Catalog-capped | Shared OSS pool | Community gateway. Treat as experiment, not SLA. |
-| [AIchixia](https://www.aichixia.xyz/) | Signup | Catalog-capped | Catalog-capped | Thin OSS catalog | Marked tested 2026-09-16 on the awesome list. |
-| [AnyAPI](https://anyapi.ai) | Free plan, no card | Credit-shaped | ~100k tok/day cited on BYOK lists | 400+ model router | `https://api.anyapi.ai/v1`. Free credits then pay. |
-| [Apertis](https://apertis.ai) | Signup | Price-sorted catalog | Unpublished | Cheap / free rows | Sort catalog by price_low; verify $0 ids live. |
-| [AwanLLM](https://www.awanllm.com/models) | Signup | Catalog-capped | Catalog-capped | Hosted OSS chat | OpenAI-compat listed on Gratisfy. |
-| [BazaarLink](https://bazaarlink.ai/free) | Dedicated /free page | Catalog-capped | Catalog-capped | Free-lane hub | Explicit free landing; still an aggregator. |
-| [BlazeAI](https://blazeai.boxu.dev/#models) | Signup | Catalog-capped | Catalog-capped | Small public catalog | Hobby host. Check uptime before depending on it. |
-| [Coze](https://www.coze.com/open) | Login | Product-capped | Product-capped | Bot / agent builder | ByteDance console. Bundled models, not a raw multi-tenant SaaS. |
-| [DGrid AI](https://dgrid.ai/models/dgridai/free/) | Free model path | Catalog-capped | Catalog-capped | Listed free rows | `/models/dgridai/free/` is the official free slice. |
-| [Electron Hub](https://www.electronhub.ai/) | Signup credits | Credit-shaped | Credit-shaped | 600+ model one-key | Unified API. Free lane is trial credits; rest is $ plans. |
-| [EvolveX](https://www.evolvex.gg/) | Signup | Catalog-capped | Catalog-capped | Gaming / chat API | Docs at evolvex.gg/docs. Niche host. |
-| [FastRouter](https://fastrouter.ai/models/) | `:free` suffix, no billing credits | ~10 req/day/model cited | Tight cap | Eval many `:free` ids | OpenAI-compat. Good for sampling, bad for agents. |
-| [LiteRouter](https://literouter.com/model_list) | Signup | Catalog-capped | Catalog-capped | Lightweight router | Listed live 2026-09-16. |
-| [MegaNova](https://console.meganova.ai/serverless) | Daily free credits | Credit-shaped | Daily reset cited | RP / Manta series | `https://inference.meganova.ai/v1`. Popular on Janitor / Chub. |
-| [Mixlayer](https://mixlayer.com) | Signup cited on BYOK lists | Unpublished | Unpublished | Serverless mix | Appears on awesome-free-byok-models; verify live quota. |
-| [OpenCode Zen](https://opencode.ai/zen) | Free models available | Unpublished | Unpublished | Coding agents, OpenAI-compatible access | Community measurements suggest a daily request cap, but OpenCode does not publish a stable production quota. Free model IDs can change server-side; use it for experiments rather than production. |
+| [Atessa](https://atessa.top/) | Signup | Catalog-capped | Catalog-capped | Small public catalog | Marked tested 2026-09-16 on awesome-free-ai-api. |
+| [CoderPlan](https://coderplan.ai) | Signup | Catalog-capped | Catalog-capped | Coding-oriented catalog | Docs + `/models` on the same host. |
+| [Completions](https://www.completions.me) | Signup | Catalog-capped | Catalog-capped | Chat completions host | Hobby OpenAI-compat surface. |
+| [Crax GPT](https://gpt.crax.lol/) | Signup | Catalog-capped | Catalog-capped | Thin public models page | `/models` listed; treat as experiment. |
+| [Flowbar AI](https://flowbarai.com/pricing) | Signup | Catalog-capped | Catalog-capped | Priced catalog with free rows | Verify $0 ids on the pricing page before depending on it. |
+| [FreeTheAI](https://freetheai.xyz/) | Discord key + daily `/checkin` | Community-capped | Unpublished | One-key OpenAI-compat gateway | Base `https://api.freetheai.xyz/v1`. No card. Optional paid slots exist. |
+| [Hubs02225](https://hubs02225.snia.ch/) | Signup | Catalog-capped | Catalog-capped | Small Swiss-hosted catalog | Listed live on Gratisfy maps. |
+| [IBM watsonx.ai](https://cloud.ibm.com/docs/apis/watsonx-ai) | IBM Cloud trial / lite | Product-capped | Product-capped | Enterprise console models | Cloud product, not a multi-tenant hobby pool. |
+| [LLM Gateway](https://llmgateway.io/models?filters=1&free=true) | Signup, free filter | Catalog-capped | Catalog-capped | Filtered `:free` catalog | OpenAI-compat `https://api.llmgateway.io/v1`. |
+| [Logfare](https://logfare.ai/) | Signup | Catalog-capped | Catalog-capped | Lightweight router | Base cited as `https://logfare.ai/v1`. |
+| [Mixedbread](https://www.mixedbread.com/pricing) | Signup | Unpublished | Unpublished | Embeddings + retrieval | Retrieval-first vendor; chat may be thin. |
+| [MNN AI](https://mnnai.ru/) | Signup | Catalog-capped | Catalog-capped | RU-hosted OpenAI-compat | Base cited as `https://api.mnnai.ru/v1`. |
+| [NagaAI](https://naga.ac/models) | Signup | Catalog-capped | Catalog-capped | Multi-model catalog | Also appears on BYOK aggregator lists. |
+| [Nexusify](https://docs.nexusify.co/) | Signup | Catalog-capped | Catalog-capped | Documented gateway | Check docs for live free ids. |
+| [Ofox](https://ofox.ai/models) | Signup | Catalog-capped | Catalog-capped | Public models page | Base cited as `https://api.ofox.ai/v1`. |
+| [OhMyGPT](https://www.ohmygpt.com/pricing) | Signup credits | Credit-shaped | Credit-shaped | One-key multi-model hub | Free lane is trial credits; rest is $ plans. |
+| [Void AI](https://api.voidai.app/v1) | Signup cited on BYOK lists | High RPM cited (~100) | ~125k daily credits cited | Fast coding ids | awesome-free-ai-api still marks it untested on 2026-09-16 — verify before production. |
+
+## Previous pass (2026-09-17 night-2)
+
+Night-2 rows (do not re-add): A4F, AI Pooled, AIchixia, AnyAPI, Apertis, AwanLLM, BazaarLink, BlazeAI, Coze, DGrid AI, Electron Hub, EvolveX, FastRouter, LiteRouter, MegaNova, Mixlayer, OpenCode Zen.
 
 ## Previous pass (2026-09-17 evening-2)
 
@@ -82,5 +86,7 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [felipetruman/free-llm-hub](https://github.com/felipetruman/free-llm-hub)
 - [klymentiev free LLM API review](https://klymentiev.com/blog/free-llm-api)
 - [Gratisfy](https://gratisfy.xyz/)
+- [FreeTheAi](https://freetheai.xyz/)
+- [all-llm-provider-list](https://github.com/foisalislambd/all-llm-provider-list)
 - [OpenCode Zen community tracker](https://github.com/thelabcorner/opencode-zen-fut-api)
 - [OpenCode Zen pricing mirror](https://llmprice.gitlab.io/providers/opencode/)
