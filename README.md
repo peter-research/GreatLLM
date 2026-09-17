@@ -4,9 +4,32 @@ Some free LLM, vision models, image... All free.
 
 Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change often — treat numbers as snapshots, not contracts. Prefer official docs over aggregators.
 
-## New this pass (2026-09-17 morning)
+## New this pass (2026-09-17 midday)
 
-Research: YoannDev90/awesome-free-ai-api (checked 2026-09-16), freellm.net changelog 2026-09-17, awesome-freellm-apis, velo4705/awesome-free-byok-models, OuterSpacee/free-ai-apis, official provider pages. Reviews: Yoann tested column + Gratisfy status. **New names only** — none of these rows existed in prior README passes.
+Research: YoannDev90/awesome-free-ai-api (2026-09-16 table + 2026 changelog), freellm.net providers/changelog 2026-09-17, awesome-freellm-apis, velo4705/awesome-free-byok-models, mvalentsev/awesome-free-ai-coding, official provider pages. Reviews: Yoann Tested column (AIchixia / Resurge / SambaNova / HF / watsonx ✅; SwiftRouter / Subaxis / SixFinger ❌). **New names only** — none of these rows existed in prior README passes.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [AIchixia](https://www.aichixia.xyz/) | Listed free gateway catalog | Not published | Not published | One-key multi-lab + TTS | Yoann tested 2026-09-16; Gratisfy row |
+| [Hugging Face Inference](https://huggingface.co/docs/inference-providers) | Router + ~$0.10/mo credits listed | Credit-based | Credit-based | OSS via HF router | `https://router.huggingface.co/v1` — Yoann 2026-09-16 |
+| [IBM watsonx.ai](https://cloud.ibm.com/docs/apis/watsonx-ai) | Cloud trial / listed free path | Not published | Not published | Enterprise Granite stack | Yoann re-added Aug 2026; confirm live trial |
+| [Resurge](https://www.resurge.one/models) | Listed free catalog | Not published | Not published | Multi-model host | Yoann tested 2026-09-16 |
+| [SambaNova Cloud](https://cloud.sambanova.ai) | Listed free / trial inference | See docs | See docs | Fast OSS on SN chips | Yoann 2026-09-16; rate-limit docs |
+| [SwiftRouter](https://swiftrouter.com/models?plan=starter) | Starter plan listed | Not published | Not published | Router / starter ids | Yoann: untested 2026-09-16 |
+| [Subaxis](https://subaxis.dev/) | Listed free path | Not published | Not published | Hobby gateway | Yoann: untested 2026-09-16 |
+| [SixFingerAPI](https://api.sixfinger.live) | Listed plans + models docs | Not published | Not published | Hobby OpenAI-compat | Yoann last check 2026-07-09, untested |
+| [Liquid AI](https://inference.liquid.ai/v1) | LFM2.5 free rows on aggregators | Not published | Not published | Small fast LFM models | First-party inference URL; also OpenRouter `:free` |
+| [BlockRun / ClawRouter](https://user.blockrun.ai) | 6 models listed keyless / no wallet | Capacity-based | Capacity-based | Agent router + x402 pay | Confirm which 6 ids stay $0 |
+| [Alibaba Model Studio](https://www.alibabacloud.com/help/en/model-studio/) | ~1M tokens/model signup (intl, 90d) | Regional | ~1M listed / model | Qwen3 / VL / Coder | `dashscope-intl.aliyuncs.com/compatible-mode/v1` |
+| [Moonshot / Kimi](https://platform.moonshot.ai/) | Official platform trial / free ids | Not published | Not published | Kimi K2 / K3 family | First-party, not only NIM relay |
+| [MiniMax](https://www.minimax.io/) | Official API trial / free rows | Not published | Not published | M-series + speech | Also hosted on ModelScope free catalog |
+| [Scaleway Generative APIs](https://www.scaleway.com/en/docs/generative-apis/) | EU trial credit listed | Credit-based | Credit-based | EU-hosted OSS | Trial, then PAYG |
+| [Novita AI](https://novita.ai/) | Signup trial credit | Credit-based | Credit-based | Broad OSS catalog | Trial wall after credit |
+| [Fireworks AI](https://fireworks.ai/) | Signup trial credit | Credit-based | Credit-based | Fast hosted OSS | Trial, not a permanent $0 tier |
+
+## Previous pass (2026-09-17 morning)
+
+Kept from the prior commit. Same columns.
 
 | Provider | Free access | RPD | TKPD | Best for | Notes |
 | --- | --- | ---: | ---: | --- | --- |
