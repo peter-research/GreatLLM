@@ -6,7 +6,15 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 First commit of this repo started from [FreeLLM](https://freellm.net/) and the awesome free-LLM lists. Each pass: research → check reviews / official pages → commit **README only**, **new provider names only**.
 
-## New this pass (2026-09-17 night-3)
+## New this pass (2026-09-20)
+
+Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), and current provider pages. Openference is a new provider name in this README; its official pricing page confirms a no-card 3-day free trial for open-source models, while the public site documents an OpenAI-compatible endpoint and routing/failover. Community tracking reports a 350-requests/week trial snapshot, but that number is not treated as an official guarantee.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [Openference](https://www.openference.com/) | 3-day free trial, no credit card | Community snapshot: ~50/day | Unpublished | Open-source model routing, coding agents | Official pricing describes a 3-day trial with included usage and no card. Public site advertises one OpenAI-compatible endpoint with failover. Community tracker reports ~350 requests/week; treat this as a changing snapshot, not a contract. |
+
+## Previous pass (2026-09-17 night-3)
 
 Research: [YoannDev90/awesome-free-ai-api](https://github.com/YoannDev90/awesome-free-ai-api) (daily site check 2026-09-16/17), [velo4705/awesome-free-byok-models](https://github.com/velo4705/awesome-free-byok-models) (Void AI, Intern AI, xKiro), [foisalislambd/all-llm-provider-list](https://github.com/foisalislambd/all-llm-provider-list), [FreeTheAi](https://freetheai.xyz/), [Gratisfy](https://gratisfy.xyz/), [freellm.net/providers](https://freellm.net/providers/).
 Reviews: community lists mark Atessa / CoderPlan / Completions / Crax GPT / Flowbar / FreeTheAI / Hubs02225 / LLM Gateway / Logfare / Mixedbread / MNN AI / NagaAI / Nexusify / Ofox / OhMyGPT as live OpenAI-compat or console hosts (tested ✅ on 2026-09-16 except AquaDevs / Navy / Void which stay untested on that table). Void AI is still cited on BYOK lists for high RPM coding ids. watsonx is IBM cloud, not a Groq-class pool. Cerebras stays delisted as a card-gated credit.
@@ -90,3 +98,6 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [all-llm-provider-list](https://github.com/foisalislambd/all-llm-provider-list)
 - [OpenCode Zen community tracker](https://github.com/thelabcorner/opencode-zen-fut-api)
 - [OpenCode Zen pricing mirror](https://llmprice.gitlab.io/providers/opencode/)
+- [Openference official site](https://www.openference.com/)
+- [Openference pricing](https://www.openference.com/pricing)
+- [Openference community pricing tracker](https://www.uprouter.online/s/openference-api)
