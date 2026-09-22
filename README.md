@@ -6,7 +6,15 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 First commit of this repo started from [FreeLLM](https://freellm.net/) and the awesome free-LLM lists. Each pass: research → check reviews / official pages → commit **README only**, **new provider names only**.
 
-## New this pass (2026-09-20)
+## New this pass (2026-09-22)
+
+Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), and current provider pages. Codiv is a new provider name in this README; its official site and docs describe a free public inference experiment with separate free token quotas for its System One endpoint and text-generation endpoint. The free quotas are explicitly documented, while shared-capacity overloads can still return 529 errors.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [Codiv](https://codiv.ai/) | Free public experiment | Unpublished | 100M input/thought tokens + 10M text-generation tokens (lifetime quota) | Structured classification, typed decisions, low-latency inference | Official docs list separate free quotas: 100M tokens for System One and 10M tokens for chat completions. Default rate limit is 1,200 requests/minute per key, but shared capacity can return 529 overload errors. |
+
+## Previous pass (2026-09-20)
 
 Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), and current provider pages. Openference is a new provider name in this README; its official pricing page confirms a no-card 3-day free trial for open-source models, while the public site documents an OpenAI-compatible endpoint and routing/failover. Community tracking reports a 350-requests/week trial snapshot, but that number is not treated as an official guarantee.
 
@@ -101,3 +109,5 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [Openference official site](https://www.openference.com/)
 - [Openference pricing](https://www.openference.com/pricing)
 - [Openference community pricing tracker](https://www.uprouter.online/s/openference-api)
+- [Codiv](https://codiv.ai/)
+- [Codiv limits](https://codiv.ai/docs/guides/rate-limits)
