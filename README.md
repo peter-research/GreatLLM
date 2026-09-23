@@ -6,6 +6,14 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 First commit of this repo started from [FreeLLM](https://freellm.net/) and the awesome free-LLM lists. Each pass: research → check reviews / official pages → commit **README only**, **new provider names only**.
 
+## New this pass (2026-09-23)
+
+Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), the [9Router official site](https://9router.com/), and its [official API page](https://api.9router.com/). 9Router is a new provider name in this README. Its free tier is a local/open-source routing gateway rather than a hosted model quota: it exposes an OpenAI-compatible local endpoint and routes across free, subscription, and paid providers. The site explicitly lists a free tier and no-card setup, while the exact upstream free-model availability can change.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [9Router](https://9router.com/) | Free, open-source local gateway | Unpublished | Unpublished | Coding agents, fallback routing, token saving | Runs locally at `http://localhost:20128/v1` and can route across 60+ providers. The official site advertises a no-card free tier and free upstream lanes such as iFlow, Qwen, Kiro, and OpenCode; upstream quotas and model availability are not guaranteed by 9Router. |
+
 ## New this pass (2026-09-22)
 
 Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), and current provider pages. Codiv is a new provider name in this README; its official site and docs describe a free public inference experiment with separate free token quotas for its System One endpoint and text-generation endpoint. The free quotas are explicitly documented, while shared-capacity overloads can still return 529 errors.
@@ -111,3 +119,5 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [Openference community pricing tracker](https://www.uprouter.online/s/openference-api)
 - [Codiv](https://codiv.ai/)
 - [Codiv limits](https://codiv.ai/docs/guides/rate-limits)
+- [9Router](https://9router.com/)
+- [9Router API](https://api.9router.com/)
