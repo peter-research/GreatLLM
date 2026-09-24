@@ -6,6 +6,14 @@ Curated directory of **free or free-tier LLM / multimodal APIs**. Quotas change 
 
 First commit of this repo started from [FreeLLM](https://freellm.net/) and the awesome free-LLM lists. Each pass: research → check reviews / official pages → commit **README only**, **new provider names only**.
 
+## New this pass (2026-09-24)
+
+Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), the [ElevenLabs pricing page](https://elevenlabs.io/pricing), and independent free-tier reviews. ElevenLabs is a new multimodal provider name in this README. Its official pricing page currently lists a $0 plan with 10,000 credits/month shared across text-to-speech, speech-to-text, sound effects, voice design, music, image, and related tools. Independent trackers report that API access is available on the free plan, but the tier is non-commercial and limits/concurrency are not published as a simple RPD/TKPD quota. Community reports also mention API restrictions for some voice-library assets, so this entry is best treated as an evaluation lane rather than production capacity.
+
+| Provider | Free access | RPD | TKPD | Best for | Notes |
+| --- | --- | ---: | ---: | --- | --- |
+| [ElevenLabs](https://elevenlabs.io/) | $0 plan with 10,000 credits/month | Unpublished | Unpublished | Text-to-speech, speech-to-text, audio generation | Official pricing lists 10k monthly credits across multiple audio/creative features. The free plan is non-commercial; API concurrency and exact request limits are not published. Community reports say some voice-library assets require a paid plan through the API, so verify the exact voice/model before use. |
+
 ## New this pass (2026-09-23)
 
 Research: [FreeLLM](https://freellm.net/providers/), [awesome-freellm-apis](https://github.com/open-free-llm-api/awesome-freellm-apis), the [9Router official site](https://9router.com/), and its [official API page](https://api.9router.com/). 9Router is a new provider name in this README. Its free tier is a local/open-source routing gateway rather than a hosted model quota: it exposes an OpenAI-compatible local endpoint and routes across free, subscription, and paid providers. The site explicitly lists a free tier and no-card setup, while the exact upstream free-model availability can change.
@@ -121,3 +129,6 @@ Start with **Google AI Studio**, **Groq**, **NVIDIA NIM**, **OpenRouter `:free`*
 - [Codiv limits](https://codiv.ai/docs/guides/rate-limits)
 - [9Router](https://9router.com/)
 - [9Router API](https://api.9router.com/)
+- [ElevenLabs pricing](https://elevenlabs.io/pricing)
+- [ElevenLabs free-tier tracker](https://freellmapihub.com/p/elevenlabs)
+- [ElevenLabs community API reports](https://www.reddit.com/r/ElevenLabs/comments/1qrhnr4/most_voices_are_locked_behind_a_paywall_now/)
